@@ -1,0 +1,13 @@
+{
+  "meta": { "title": "Privacy", "description": "How the campaign handles your personal data under Kenya's Data Protection Act, 2019." },
+  "hero": { "kicker": "Faragha", "title": "Your data, your rights" },
+  "sections": {
+    "who": { "title": "Who we are", "body": "This site is run by the campaign to re-elect Hon. Hilary Kiplang'at Kosgei as MP for Kipkelion West. Data controller: [[TO CONFIRM: legal name and ODPC registration number]]." },
+    "what": { "title": "What we collect", "body": "Only what you type into our forms: name, phone, optional email, ward and your message or volunteer preferences. We don't use advertising trackers." },
+    "why": { "title": "Why", "body": "To count pledges, organise volunteers and reply to you. Our lawful basis is your consent." },
+    "keep": { "title": "How long", "body": "Until 31 December 2027, then deleted, unless you ask us to delete it sooner." },
+    "rights": { "title": "Your rights", "body": "Under the Data Protection Act, 2019 you can access, correct or delete your data, withdraw consent, and complain to the Office of the Data Protection Commissioner (odpc.go.ke)." },
+    "contact": { "title": "Contact", "body": "[[TO CONFIRM: data-protection contact email]]" }
+  },
+  "updated": "Last updated: {date}"
+}

@@ -1,0 +1,7 @@
+{
+  "meta": { "title": "Wasiliana", "description": "Wasiliana na kampeni ya Hilary Kosgei na ofisi ya eneo bunge." },
+  "hero": { "kicker": "Wasiliana", "title": "Zungumza nasi" },
+  "office": { "title": "Ofisi ya eneo bunge", "address": "[[TO CONFIRM: address]]", "phone": "[[TO CONFIRM: phone]]", "email": "[[TO CONFIRM: email]]", "hours": "[[TO CONFIRM: hours]]" },
+  "form": { "title": "Tuma ujumbe", "cta": "Tuma", "success": "Ujumbe umepokelewa. Tutakujibu hivi karibuni." },
+  "social": "Akaunti rasmi"
+}

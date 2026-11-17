@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "kicker": "Kipkelion West · 2017 · 2022 · 2027",
+    "numeral": "3",
+    "headline": "Mara ya Tatu.",
+    "subhead": "Two terms of work for Chilchila, Kipkelion, Kamasian and Kunyak. On 10 August 2027, the third.",
+    "ctaPrimary": "Pledge your vote",
+    "ctaSecondary": "See the record"
+  },
+  "slogans": {
+    "_note": "Options for the campaign to choose from. Only one ships.",
+    "a": "Mara ya Tatu, Kazi Zaidi",
+    "aEn": "Third time, more work",
+    "b": "Tatu Bora",
+    "bEn": "The best three",
+    "c": "Hat-Trick ya Maendeleo",
+    "cEn": "A development hat-trick",
+    "d": "Term 3: Finish Strong",
+    "e": "Nyiganet Mara Tatu",
+    "eNote": "Only if the nickname is approved",
+    "f": "The first three-term MP for Kipkelion West",
+    "fNote": "Supporting line, only once verified"
+  },
+  "beats": {
+    "one": { "kicker": "01 · Who", "title": "From Koru Farm Primary to the National Assembly", "body": "Koru Farm Primary, Kericho High School, an economics degree from Kenyatta University, then the Kenya Bureau of Standards board. Elected MP in 2017, re-elected in 2022." },
+    "two": { "kicker": "02 · The record", "title": "What two terms look like on paper", "body": "NG-CDF allocations approved for Kipkelion West, committee work in two Parliaments, and every figure linked to its source document." },
+    "three": { "kicker": "03 · What's next", "title": "The third term is for finishing", "body": "Classrooms, bursaries, roads and the coffee and dairy economy. The draft plan is open for your input." }
+  },
+  "stats": {
+    "title": "In numbers",
+    "seeAll": "All statistics"
+  },
+  "wards": {
+    "title": "Four wards, one constituency",
+    "cta": "Explore the wards"
+  },
+  "join": {
+    "title": "Be part of the third",
+    "body": "Pledge your vote, volunteer in your ward, or tell us what the next term must deliver.",
+    "cta": "Get involved"
+  }
+}

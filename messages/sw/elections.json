@@ -1,0 +1,16 @@
+{
+  "meta": { "title": "Uchaguzi", "description": "Uchaguzi Mkuu wa 10 Agosti 2027 Kipkelion Magharibi: tarehe, daftari na historia." },
+  "hero": { "kicker": "Uchaguzi", "title": "10 Agosti 2027" },
+  "history": { "title": "Kipkelion Magharibi debeni", "created": "Liliundwa kwa uchaguzi wa 2013, likigawanywa kutoka eneo bunge la zamani la Kipkelion.", "mp": "{year}: {name} ({party})" },
+  "register": { "title": "Daftari", "y2017": "2017", "y2022": "2022", "growth": "+{pct} kwa miaka mitano" },
+  "milestones": {
+    "title": "Tarehe muhimu",
+    "unconfirmed": "Tarehe zilizoripotiwa. Hakiki kwenye gazeti rasmi la IEBC.",
+    "primaries": "Kura za mchujo za vyama zinakamilika",
+    "campaignStart": "Kipindi cha kampeni kinaanza",
+    "campaignEnd": "Kipindi cha kampeni kinafungwa",
+    "electionDay": "Siku ya uchaguzi"
+  },
+  "voter": { "title": "Je, umesajiliwa?", "body": "Hakiki usajili wako na IEBC.", "cta": "Hakiki kwa IEBC", "url": "https://www.iebc.or.ke" },
+  "dateNote": "IEBC imeweka tarehe. Uamuzi wa Mahakama Kuu kuhusu muda wa uchaguzi umesitishwa hadi uchaguzi wa 2027."
+}

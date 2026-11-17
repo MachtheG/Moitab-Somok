@@ -1,0 +1,52 @@
+{
+  "name": "kosgei-campaign-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "images": "node scripts/optimize-images.mjs",
+    "parse:ngcdf": "tsx scripts/parse-ngcdf.ts",
+    "check:translations": "tsx scripts/check-translations.ts",
+    "check:sources": "tsx scripts/check-sources.ts",
+    "audit:colors": "tsx scripts/audit-colors.ts",
+    "check": "npm run check:translations && npm run check:sources && npm run audit:colors && npm run typecheck && npm run lint && npm test"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.4",
+    "@radix-ui/react-progress": "^1.1.1",
+    "@radix-ui/react-select": "^2.1.4",
+    "@radix-ui/react-separator": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-tabs": "^1.1.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "motion": "^14.14.0",
+    "next": "15.5.20",
+    "next-intl": "^4.15.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.4",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "d3-geo": "^3.1.1",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "15.5.20",
+    "postcss": "^8.5.10",
+    "tailwindcss": "^3.4.17",
+    "tailwindcss-animate": "^1.0.7",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.2",
+    "vitest": "^5.1.0"
+  }
+}

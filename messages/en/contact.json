@@ -1,0 +1,7 @@
+{
+  "meta": { "title": "Contact", "description": "Contact the Hilary Kosgei campaign and constituency office." },
+  "hero": { "kicker": "Wasiliana", "title": "Talk to us" },
+  "office": { "title": "Constituency office", "address": "[[TO CONFIRM: address]]", "phone": "[[TO CONFIRM: phone]]", "email": "[[TO CONFIRM: email]]", "hours": "[[TO CONFIRM: hours]]" },
+  "form": { "title": "Send a message", "cta": "Send", "success": "Message received. We'll reply soon." },
+  "social": "Official channels"
+}

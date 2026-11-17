@@ -1,0 +1,13 @@
+{
+  "meta": { "title": "In the News", "description": "Coverage of Hon. Hilary Kosgei's work, summarised in our own words with links to the originals." },
+  "hero": { "kicker": "Habari", "title": "In the news", "body": "Our one-line summaries. Read the full stories at the source." },
+  "readAt": "Read at {outlet}",
+  "empty": "More coverage is being verified.",
+  "items": {
+    "kbc-were-justice": "Joined leaders calling for the arrest of those behind the killing of Kasipul MP Charles Were.",
+    "standard-angata-barrikoi": "[[TO CONFIRM]]",
+    "nation-pesticides-board": "[[TO CONFIRM]]",
+    "kenyans-land-fraud": "[[TO CONFIRM]]",
+    "nation-coffee-day-2022": "[[TO CONFIRM]]"
+  }
+}

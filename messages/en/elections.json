@@ -1,0 +1,16 @@
+{
+  "meta": { "title": "Elections", "description": "The 10 August 2027 General Election in Kipkelion West: dates, register and history." },
+  "hero": { "kicker": "Uchaguzi", "title": "10 August 2027" },
+  "history": { "title": "Kipkelion West at the polls", "created": "Created for the 2013 election, split from the former Kipkelion Constituency.", "mp": "{year}: {name} ({party})" },
+  "register": { "title": "The register", "y2017": "2017", "y2022": "2022", "growth": "+{pct} in five years" },
+  "milestones": {
+    "title": "Key dates",
+    "unconfirmed": "Reported dates. Check the IEBC gazette.",
+    "primaries": "Party primaries concluded",
+    "campaignStart": "Campaign period opens",
+    "campaignEnd": "Campaign period closes",
+    "electionDay": "Election day"
+  },
+  "voter": { "title": "Are you registered?", "body": "Check your registration with IEBC.", "cta": "Check on IEBC", "url": "https://www.iebc.or.ke" },
+  "dateNote": "IEBC has set the date. A High Court judgment on the timing was suspended until the 2027 election."
+}

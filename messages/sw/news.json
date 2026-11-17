@@ -1,0 +1,13 @@
+{
+  "meta": { "title": "Habari", "description": "Habari kuhusu kazi ya Mhe. Hilary Kosgei, kwa muhtasari wetu na viungo vya habari asili." },
+  "hero": { "kicker": "Habari", "title": "Katika habari", "body": "Muhtasari wetu wa mstari mmoja. Soma habari kamili kwenye chanzo." },
+  "readAt": "Soma kwenye {outlet}",
+  "empty": "Habari zaidi zinathibitishwa.",
+  "items": {
+    "kbc-were-justice": "Aliungana na viongozi kudai kukamatwa kwa waliohusika na mauaji ya Mbunge wa Kasipul Charles Were.",
+    "standard-angata-barrikoi": "[[TO CONFIRM]]",
+    "nation-pesticides-board": "[[TO CONFIRM]]",
+    "kenyans-land-fraud": "[[TO CONFIRM]]",
+    "nation-coffee-day-2022": "[[TO CONFIRM]]"
+  }
+}

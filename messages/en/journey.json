@@ -1,0 +1,14 @@
+{
+  "meta": { "title": "My Journey", "description": "From Koru Farm Primary to the National Assembly." },
+  "hero": { "kicker": "Safari Yangu", "title": "The road to the House" },
+  "steps": {
+    "koruFarm": { "title": "Koru Farm Primary School", "body": "Primary education." },
+    "kerichoHigh": { "title": "Kericho High School", "body": "Secondary education." },
+    "kenyattaUniversity": { "title": "Kenyatta University", "body": "Bachelor of Arts in Economics." },
+    "kebs": { "title": "Kenya Bureau of Standards", "body": "Board member." },
+    "mp2017": { "title": "MP, Kipkelion West", "body": "First elected in 2017 on a Jubilee ticket." },
+    "mp2022": { "title": "MP, Kipkelion West", "body": "Re-elected in 2022 on a UDA ticket." }
+  },
+  "gap": "1998–2015: [[TO CONFIRM: career from the campaign]]",
+  "present": "present"
+}

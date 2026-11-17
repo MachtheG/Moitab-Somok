@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "siteName": "Hilary Kosgei · Mara ya Tatu",
+    "description": "Hon. Hilary Kiplang'at Kosgei, MP for Kipkelion West since 2017, is seeking a third term on 10 August 2027. The record, the wards and the plan, with every number sourced."
+  },
+  "nav": {
+    "home": "Home",
+    "record": "The Record",
+    "thirdTerm": "Mara ya Tatu",
+    "wards": "Our Wards",
+    "gallery": "Gallery",
+    "news": "In the News",
+    "journey": "My Journey",
+    "party": "UDA & Party",
+    "elections": "Elections",
+    "getInvolved": "Get Involved",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "menu": "Menu",
+    "close": "Close",
+    "skip": "Skip to content"
+  },
+  "countdown": {
+    "pill": "D-{days}",
+    "pillLabel": "{days} days to the 10 August 2027 election",
+    "board": "Next stop: Term 3",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "addToCalendar": "Add to calendar",
+    "sound": "Flip sound",
+    "soundOn": "Sound on",
+    "soundOff": "Sound off",
+    "electionDay": "Election day: Tuesday, 10 August 2027"
+  },
+  "hatTrick": {
+    "label": "Two terms served, the third to be decided on 10 August 2027",
+    "y2017": "2017",
+    "y2022": "2022",
+    "y2027": "2027"
+  },
+  "locale": {
+    "switchTo": "Kiswahili",
+    "label": "Language"
+  },
+  "lite": {
+    "toggle": "Lite mode",
+    "on": "Lite mode is on: fewer animations and smaller images.",
+    "suggest": "Slow connection? Switch to Lite mode."
+  },
+  "source": {
+    "badge": "Source",
+    "toConfirm": "To confirm",
+    "approvedNote": "Approved allocations, not spending records.",
+    "viewSource": "View source: {outlet}"
+  },
+  "photo": {
+    "slot": "Photo coming: {slot}",
+    "placeholderAlt": "Photo placeholder"
+  },
+  "share": {
+    "whatsapp": "Share on WhatsApp",
+    "copy": "Copy link",
+    "copied": "Link copied"
+  },
+  "footer": {
+    "tagline": "Two terms. One constituency. One more to finish the work.",
+    "paidFor": "[[TO CONFIRM: authorisation line, e.g. 'Published by the Hilary Kosgei 2027 campaign']]",
+    "sources": "Every figure on this site links to its source.",
+    "follow": "Follow"
+  },
+  "placeholder": {
+    "toConfirm": "To confirm"
+  }
+}

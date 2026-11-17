@@ -1,0 +1,101 @@
+{
+  "meta": { "title": "Kazi Imeonekana", "description": "Mihula miwili kwa Kipkelion Magharibi kwa takwimu zenye vyanzo: NG-CDF, kamati na shughuli bungeni." },
+  "hero": {
+    "kicker": "Kazi Imeonekana",
+    "title": "Rekodi, pamoja na ushahidi",
+    "body": "Kila takwimu hapa chini ina kiungo cha hati ilikotoka. Pale ambapo jambo halijathibitishwa bado, tunasema wazi."
+  },
+  "stats": {
+    "terms": { "label": "Mihula kama Mbunge", "detail": "Alichaguliwa 2017 (Jubilee), akachaguliwa tena 2022 (UDA)" },
+    "votes2022": { "label": "Kura mwaka 2022", "detail": "Alitangazwa Mbunge wa Kipkelion Magharibi, Gazeti Rasmi Na. 9950" },
+    "registered2022": { "label": "Wapiga kura waliosajiliwa, 2022", "detail": "Katika Chilchila, Kipkelion, Kamasian na Kunyak" },
+    "registerGrowth": { "label": "Ongezeko la daftari la wapiga kura, 2017–2022", "detail": "Kutoka 46,512 hadi 52,960" },
+    "ngcdfFourYears": { "label": "NG-CDF iliyoidhinishwa kwa Kipkelion Magharibi, 2022/23–2025/26", "detail": "Fedha zilizoidhinishwa na Bodi ya NG-CDF, si rekodi za matumizi" },
+    "ngcdfGrowth": { "label": "Ongezeko la mgao wa NG-CDF kwa mwaka, 2022/23 hadi 2025/26", "detail": "KSh milioni 138.2 hadi KSh milioni 183.0" },
+    "projectLines": { "label": "Miradi ya NG-CDF iliyoidhinishwa", "detail": "Orodha za miradi zilizochapishwa za 2020/21, 2022/23 na 2023/24" },
+    "educationLines": { "label": "Kati ya hiyo, ya shule", "detail": "Shule za msingi, sekondari ya chini na sekondari" },
+    "educationKsh": { "label": "Iliyoidhinishwa kwa miundombinu ya shule", "detail": "Orodha hizo tatu" },
+    "bursariesKsh": { "label": "Iliyoidhinishwa kwa basari", "detail": "Orodha hizo tatu" },
+    "divisions": { "label": "Kura za bungeni zilizorekodiwa alizopiga, Bunge la 13", "detail": "Hesabu ya Mzalendo" },
+    "hansard": { "label": "Michango katika Hansard, Bunge la 13", "detail": "Hesabu ya Mzalendo: vifungu vya Hansard vinavyohusishwa naye" },
+    "committees": { "label": "Kamati za bunge alizohudumu", "detail": "Mbili katika Bunge la 12; nyadhifa za Bunge la 13 zinasubiri uthibitisho" },
+    "wards": { "label": "Wadi", "detail": "Chilchila, Kipkelion, Kamasian, Kunyak" }
+  },
+  "allocations": {
+    "title": "Mgao wa NG-CDF kwa mwaka",
+    "caption": "Fedha zilizoidhinishwa kwa Kipkelion Magharibi. Chanzo: Bodi ya NG-CDF, kupitia Mzalendo.",
+    "gapNote": "Orodha ya miradi iliyochapishwa ya {fy} inafikia {codeList}, yaani {gap} chini ya {approved} zilizoidhinishwa. Tunauliza ofisi ya NG-CDF sababu."
+  },
+  "sankey": {
+    "title": "Pesa zilienda wapi",
+    "body": "Miradi ya NG-CDF iliyoidhinishwa kwa Kipkelion Magharibi, kwa sekta. Gusa ukanda kuona miradi.",
+    "wardsPending": "Mgawanyo kwa wadi utakuja baada ya data ya shule kwa wadi kuthibitishwa.",
+    "inferred": "Sekta imekisiwa kutokana na jina la mradi"
+  },
+  "sectors": {
+    "primary-education": "Shule za msingi",
+    "secondary-education": "Shule za sekondari",
+    "jss": "Sekondari ya chini (JSS)",
+    "bursaries": "Basari",
+    "security": "Usalama",
+    "sports": "Michezo",
+    "environment": "Mazingira",
+    "water": "Maji",
+    "ict": "TEHAMA na ubunifu",
+    "emergency": "Akiba ya dharura",
+    "administration": "Utawala",
+    "monitoring": "Ufuatiliaji na mafunzo",
+    "strategic-plan": "Mpango mkakati",
+    "other": "Mengineyo"
+  },
+  "committees": {
+    "title": "Kazi za kamati",
+    "environment": "Mazingira na Maliasili",
+    "regionalIntegration": "Mtangamano wa Kikanda",
+    "implementation": "Kamati ya Utekelezaji",
+    "socialProtection": "Ulinzi wa Jamii",
+    "member": "Mwanachama",
+    "vice-chair": "Naibu Mwenyekiti",
+    "parliament": "Bunge la {n}"
+  },
+  "hansard": {
+    "title": "Bungeni",
+    "roads": "Aliibua suala la barabara ya Kipsitet–Muhoroni–Chemelil–Mamboleo na barabara zake za kuunganisha.",
+    "education": "Alizungumzia elimu ya umilisi (CBE), STEM na kwa nini vijana wanaacha kilimo.",
+    "tea": "Aliibua malipo kwa wakulima katika maeneo yanayokuza chai.",
+    "dams": "Alichangia kuhusu mabwawa na Wizara ya Maji na Unyunyiziaji.",
+    "socialWork": "Aliwasilisha marekebisho ya Mswada wa kazi za ustawi wa jamii katika hatua ya kamati.",
+    "fertiliser": "Aliibua suala la mbolea na bajeti ya mbolea kwa wakulima.",
+    "settlement": "Aliripoti kuhusu ziara ya mpango wa makazi kama mwanachama wa kamati ya Mazingira.",
+    "quotePending": "Nukuu rasmi ya Hansard inakuja"
+  },
+  "timeline": {
+    "title": "2017 hadi leo",
+    "elected2017": "Achaguliwa Mbunge wa Kipkelion Magharibi (Jubilee)",
+    "environmentCommittee": "Ajiunga na Kamati ya Mazingira na Maliasili",
+    "ngcdf2017": "Orodha ya NG-CDF 2017/18: KSh milioni 92.99 katika miradi 107 (mwaka ulianza kabla ya uchaguzi)",
+    "settlementVisit": "Aripoti Bungeni kuhusu ziara ya mpango wa makazi",
+    "regionalIntegration": "Ahamia Kamati ya Mtangamano wa Kikanda",
+    "ngcdf2020": "Orodha ya NG-CDF 2020/21: miradi 102 imeidhinishwa",
+    "fertiliser2022": "Aibua suala la mbolea kwa wakulima Bungeni",
+    "reelected2022": "Achaguliwa tena kwa kura 26,222 (UDA)",
+    "ngcdf2022": "Mgao wa NG-CDF 2022/23: KSh milioni 138.2 zimeidhinishwa",
+    "ngcdf2023": "Mgao wa NG-CDF 2023/24: KSh milioni 166.6 zimeidhinishwa",
+    "roads2025": "Aibua barabara ya Kipsitet–Muhoroni–Chemelil–Mamboleo",
+    "education2025": "Azungumzia CBE, STEM na vijana katika kilimo",
+    "ngcdf2025": "Mgao wa NG-CDF 2025/26: KSh milioni 183.0 zimeidhinishwa"
+  },
+  "filters": {
+    "year": "Mwaka wa fedha",
+    "sector": "Sekta",
+    "all": "Zote",
+    "results": "Miradi {count} · {amount}"
+  },
+  "detail": {
+    "approved": "Iliyoidhinishwa",
+    "status": "Hali katika orodha",
+    "fy": "Mwaka wa fedha",
+    "sourcePdf": "Hati ya chanzo (PDF)",
+    "neutral": "Imeidhinishwa na Kamati ya NG-CDF ya Kipkelion Magharibi chini ya Sheria ya NG-CDF."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": { "title": "Jiunge", "description": "Ahidi kura yako au jitolee kwa Hilary Kosgei, Kipkelion Magharibi." },
+  "hero": { "kicker": "Jiunge", "title": "Jaza nukta ya tatu", "body": "Mbili zimejazwa. Imebaki moja. Ni yako kuijaza." },
+  "pledge": { "title": "Ahidi kura yako", "cta": "Ninaahidi", "success": "Asante. Ahadi yako imehesabiwa." },
+  "volunteer": { "title": "Jitolee", "cta": "Niandikishe", "success": "Asante. Timu ya wadi itawasiliana nawe.", "roles": { "label": "Unaweza kusaidia vipi?", "canvass": "Nyumba kwa nyumba", "events": "Hafla", "digital": "Mitandao ya kijamii", "agent": "Wakala wa kituo cha kura", "transport": "Usafiri" } },
+  "fields": {
+    "name": "Jina kamili",
+    "phone": "Simu (07… au 01…)",
+    "email": "Barua pepe (si lazima)",
+    "ward": "Wadi",
+    "wardPlaceholder": "Chagua wadi yako",
+    "message": "Ujumbe",
+    "consent": "Ninakubali kampeni ya Hilary Kosgei ihifadhi maelezo haya na iwasiliane nami kuhusu kampeni, kama ilivyoelezwa katika Ilani ya Faragha. Ninaweza kuondoa ridhaa wakati wowote.",
+    "required": "Inahitajika"
+  },
+  "errors": { "name": "Tafadhali andika jina lako.", "phone": "Andika nambari ya simu ya Kenya, k.m. 0712 345 678.", "email": "Barua pepe hiyo haionekani sahihi.", "ward": "Chagua wadi yako.", "consent": "Tunahitaji ridhaa yako ili kuhifadhi maelezo yako.", "rate": "Majaribio mengi mno. Jaribu tena baada ya dakika chache.", "server": "Hitilafu imetokea. Tafadhali jaribu tena." }
+}

@@ -1,0 +1,17 @@
+{
+  "meta": { "title": "Get Involved", "description": "Pledge your vote or volunteer for Hilary Kosgei in Kipkelion West." },
+  "hero": { "kicker": "Jiunge", "title": "Fill the third dot", "body": "Two filled. One to go. It's yours to fill." },
+  "pledge": { "title": "Pledge your vote", "cta": "I pledge", "success": "Thank you. Your pledge is counted." },
+  "volunteer": { "title": "Volunteer", "cta": "Sign me up", "success": "Thank you. The ward team will be in touch.", "roles": { "label": "How can you help?", "canvass": "Door-to-door", "events": "Events", "digital": "Social media", "agent": "Polling agent", "transport": "Transport" } },
+  "fields": {
+    "name": "Full name",
+    "phone": "Phone (07… or 01…)",
+    "email": "Email (optional)",
+    "ward": "Ward",
+    "wardPlaceholder": "Choose your ward",
+    "message": "Message",
+    "consent": "I agree that the Hilary Kosgei campaign may store these details and contact me about the campaign, as described in the Privacy notice. I can withdraw at any time.",
+    "required": "Required"
+  },
+  "errors": { "name": "Please enter your name.", "phone": "Enter a Kenyan mobile number, e.g. 0712 345 678.", "email": "That email doesn't look right.", "ward": "Choose your ward.", "consent": "We need your consent to store your details.", "rate": "Too many attempts. Try again in a few minutes.", "server": "Something went wrong. Please try again." }
+}

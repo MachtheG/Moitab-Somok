@@ -1,0 +1,14 @@
+{
+  "meta": { "title": "Safari Yangu", "description": "Kutoka Shule ya Msingi ya Koru Farm hadi Bunge la Kitaifa." },
+  "hero": { "kicker": "Safari Yangu", "title": "Njia ya kuelekea Bungeni" },
+  "steps": {
+    "koruFarm": { "title": "Shule ya Msingi ya Koru Farm", "body": "Elimu ya msingi." },
+    "kerichoHigh": { "title": "Shule ya Upili ya Kericho", "body": "Elimu ya sekondari." },
+    "kenyattaUniversity": { "title": "Chuo Kikuu cha Kenyatta", "body": "Shahada ya Sanaa katika Uchumi." },
+    "kebs": { "title": "Shirika la Viwango la Kenya (KEBS)", "body": "Mwanachama wa bodi." },
+    "mp2017": { "title": "Mbunge, Kipkelion Magharibi", "body": "Alichaguliwa mara ya kwanza 2017 kwa tiketi ya Jubilee." },
+    "mp2022": { "title": "Mbunge, Kipkelion Magharibi", "body": "Alichaguliwa tena 2022 kwa tiketi ya UDA." }
+  },
+  "gap": "1998–2015: [[TO CONFIRM: career from the campaign]]",
+  "present": "sasa"
+}

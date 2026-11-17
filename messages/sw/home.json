@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "kicker": "Kipkelion Magharibi · 2017 · 2022 · 2027",
+    "numeral": "3",
+    "headline": "Mara ya Tatu.",
+    "subhead": "Mihula miwili ya kazi kwa Chilchila, Kipkelion, Kamasian na Kunyak. Tarehe 10 Agosti 2027, wa tatu.",
+    "ctaPrimary": "Ahidi kura yako",
+    "ctaSecondary": "Tazama rekodi"
+  },
+  "slogans": {
+    "_note": "Chaguo za kampeni. Moja tu litatumika.",
+    "a": "Mara ya Tatu, Kazi Zaidi",
+    "aEn": "Third time, more work",
+    "b": "Tatu Bora",
+    "bEn": "The best three",
+    "c": "Hat-Trick ya Maendeleo",
+    "cEn": "A development hat-trick",
+    "d": "Muhula wa 3: Tumalize kwa Nguvu",
+    "e": "Nyiganet Mara Tatu",
+    "eNote": "Ikiwa jina la utani litaidhinishwa",
+    "f": "Mbunge wa kwanza wa mihula mitatu Kipkelion Magharibi",
+    "fNote": "Mstari wa ziada, baada ya kuthibitishwa"
+  },
+  "beats": {
+    "one": { "kicker": "01 · Yeye ni nani", "title": "Kutoka Shule ya Msingi ya Koru Farm hadi Bunge la Kitaifa", "body": "Shule ya Msingi ya Koru Farm, Shule ya Upili ya Kericho, shahada ya uchumi kutoka Chuo Kikuu cha Kenyatta, kisha bodi ya Shirika la Viwango la Kenya (KEBS). Alichaguliwa kuwa mbunge 2017, akachaguliwa tena 2022." },
+    "two": { "kicker": "02 · Rekodi", "title": "Mihula miwili kwa maandishi", "body": "Fedha za NG-CDF zilizoidhinishwa kwa Kipkelion Magharibi, kazi za kamati katika Mabunge mawili, na kila takwimu ikiwa na kiungo cha hati yake." },
+    "three": { "kicker": "03 · Kinachofuata", "title": "Muhula wa tatu ni wa kumalizia", "body": "Madarasa, basari, barabara, na uchumi wa kahawa na maziwa. Mpango wa rasimu uko wazi kwa maoni yako." }
+  },
+  "stats": {
+    "title": "Kwa takwimu",
+    "seeAll": "Takwimu zote"
+  },
+  "wards": {
+    "title": "Wadi nne, eneo bunge moja",
+    "cta": "Gundua wadi"
+  },
+  "join": {
+    "title": "Kuwa sehemu ya wa tatu",
+    "body": "Ahidi kura yako, jitolee katika wadi yako, au tuambie muhula ujao unapaswa kuleta nini.",
+    "cta": "Jiunge"
+  }
+}

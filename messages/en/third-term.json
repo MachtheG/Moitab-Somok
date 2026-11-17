@@ -1,0 +1,31 @@
+{
+  "meta": { "title": "Mara ya Tatu", "description": "Three acts: 2017 the promise, 2022 the proof, 2027 the finish." },
+  "hero": { "kicker": "Mara ya Tatu · The third term", "title": "Three acts. Two written. One to finish.", "scroll": "Scroll to begin" },
+  "acts": {
+    "promise": { "label": "Act I", "year": "2017", "title": "The Promise", "line": "In 2017, Kipkelion West elected him for the first time.", "numberLabel": "registered voters in 2017" },
+    "proof": { "label": "Act II", "year": "2022", "title": "The Proof", "line": "In 2022, after five years in office, the constituency voted him back.", "numberLabel": "votes to re-elect, 2022" },
+    "finish": { "label": "Act III", "year": "2027", "title": "The Finish", "line": "On 10 August 2027, every one of these voters gets a say in the third act.", "numberLabel": "registered voters in 2022" }
+  },
+  "why": {
+    "title": "Why a third term?",
+    "experience": { "title": "Experience compounds", "body": "Ten years in the House means knowing which committee, which ministry and which budget line moves a project." },
+    "continuity": { "title": "Projects need finishing", "body": "Many NG-CDF approvals fund a stage: a foundation, a slab, a roof. Continuity carries them to completion." },
+    "accountable": { "title": "Judged on the record", "body": "A third term is asked for openly, with the documents on the table." }
+  },
+  "commitments": {
+    "title": "The third-term plan",
+    "draftBadge": "DRAFT · awaiting the MP's approval",
+    "classrooms": { "title": "Finish what was started in our schools", "body": "Carry staged classroom, toilet and junior-secondary works through to completion, school by school." },
+    "bursaries": { "title": "Bursaries that reach the right students", "body": "Keep bursaries a priority and publish how they are allocated, ward by ward." },
+    "roads": { "title": "Roads that link farms to markets", "body": "Keep pressing for the Kipsitet–Muhoroni–Chemelil–Mamboleo road and its spur roads." },
+    "coffeeDairy": { "title": "Coffee and dairy that pay", "body": "Back the farmers and cooperatives behind Kipkelion West's two main livelihoods." },
+    "youth": { "title": "A future for young people at home", "body": "Skills, enterprise and modern agriculture that make staying in Kipkelion West a real choice." },
+    "security": { "title": "Safe communities", "body": "Continue NG-CDF support for police posts and chiefs' offices where communities ask for them." }
+  },
+  "letter": {
+    "title": "A letter from Hilary",
+    "draftBadge": "DRAFT · to be written with and approved by the MP",
+    "body": "[[TO CONFIRM: letter text from the MP]]",
+    "signoff": "Hon. Hilary Kiplang'at Kosgei"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "siteName": "Hilary Kosgei · Mara ya Tatu",
+    "description": "Mhe. Hilary Kiplang'at Kosgei, Mbunge wa Kipkelion Magharibi tangu 2017, anaomba muhula wa tatu tarehe 10 Agosti 2027. Rekodi, wadi na mpango, kila takwimu na chanzo chake."
+  },
+  "nav": {
+    "home": "Nyumbani",
+    "record": "Kazi Imeonekana",
+    "thirdTerm": "Mara ya Tatu",
+    "wards": "Wadi Zetu",
+    "gallery": "Picha",
+    "news": "Habari",
+    "journey": "Safari Yangu",
+    "party": "Chama",
+    "elections": "Uchaguzi",
+    "getInvolved": "Jiunge",
+    "contact": "Wasiliana",
+    "privacy": "Faragha",
+    "menu": "Menyu",
+    "close": "Funga",
+    "skip": "Ruka hadi maudhui"
+  },
+  "countdown": {
+    "pill": "Siku {days}",
+    "pillLabel": "Siku {days} kabla ya uchaguzi wa 10 Agosti 2027",
+    "board": "Kituo kijacho: Muhula wa 3",
+    "days": "Siku",
+    "hours": "Saa",
+    "minutes": "Dakika",
+    "seconds": "Sekunde",
+    "addToCalendar": "Weka kwenye kalenda",
+    "sound": "Sauti ya kugeuka",
+    "soundOn": "Sauti imewashwa",
+    "soundOff": "Sauti imezimwa",
+    "electionDay": "Siku ya uchaguzi: Jumanne, 10 Agosti 2027"
+  },
+  "hatTrick": {
+    "label": "Mihula miwili imekamilika, wa tatu utaamuliwa tarehe 10 Agosti 2027",
+    "y2017": "2017",
+    "y2022": "2022",
+    "y2027": "2027"
+  },
+  "locale": {
+    "switchTo": "English",
+    "label": "Lugha"
+  },
+  "lite": {
+    "toggle": "Hali nyepesi",
+    "on": "Hali nyepesi imewashwa: michoro michache na picha ndogo.",
+    "suggest": "Mtandao uko polepole? Badilisha uwe hali nyepesi."
+  },
+  "source": {
+    "badge": "Chanzo",
+    "toConfirm": "Inasubiri uthibitisho",
+    "approvedNote": "Fedha zilizoidhinishwa, si rekodi za matumizi.",
+    "viewSource": "Tazama chanzo: {outlet}"
+  },
+  "photo": {
+    "slot": "Picha inakuja: {slot}",
+    "placeholderAlt": "Nafasi ya picha"
+  },
+  "share": {
+    "whatsapp": "Shiriki kwenye WhatsApp",
+    "copy": "Nakili kiungo",
+    "copied": "Kiungo kimenakiliwa"
+  },
+  "footer": {
+    "tagline": "Mihula miwili. Eneo bunge moja. Mmoja zaidi kumaliza kazi.",
+    "paidFor": "[[TO CONFIRM: authorisation line, e.g. 'Published by the Hilary Kosgei 2027 campaign']]",
+    "sources": "Kila takwimu kwenye tovuti hii ina kiungo cha chanzo chake.",
+    "follow": "Tufuate"
+  },
+  "placeholder": {
+    "toConfirm": "Inasubiri uthibitisho"
+  }
+}

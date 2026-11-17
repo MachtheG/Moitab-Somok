@@ -1,0 +1,13 @@
+{
+  "meta": { "title": "Faragha", "description": "Jinsi kampeni inavyoshughulikia data yako binafsi chini ya Sheria ya Ulinzi wa Data, 2019." },
+  "hero": { "kicker": "Faragha", "title": "Data yako, haki zako" },
+  "sections": {
+    "who": { "title": "Sisi ni nani", "body": "Tovuti hii inaendeshwa na kampeni ya kumchagua tena Mhe. Hilary Kiplang'at Kosgei kama Mbunge wa Kipkelion Magharibi. Mdhibiti wa data: [[TO CONFIRM: legal name and ODPC registration number]]." },
+    "what": { "title": "Tunachokusanya", "body": "Unachoandika kwenye fomu zetu pekee: jina, simu, barua pepe (si lazima), wadi na ujumbe wako au chaguo za kujitolea. Hatutumii vifuatiliaji vya matangazo." },
+    "why": { "title": "Kwa nini", "body": "Kuhesabu ahadi, kupanga wanaojitolea na kukujibu. Msingi wetu wa kisheria ni ridhaa yako." },
+    "keep": { "title": "Kwa muda gani", "body": "Hadi tarehe 31 Desemba 2027, kisha inafutwa, isipokuwa ukituomba tuifute mapema." },
+    "rights": { "title": "Haki zako", "body": "Chini ya Sheria ya Ulinzi wa Data, 2019 unaweza kuona, kurekebisha au kufuta data yako, kuondoa ridhaa, na kulalamika kwa Ofisi ya Kamishna wa Ulinzi wa Data (odpc.go.ke)." },
+    "contact": { "title": "Mawasiliano", "body": "[[TO CONFIRM: data-protection contact email]]" }
+  },
+  "updated": "Ilisasishwa mwisho: {date}"
+}

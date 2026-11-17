@@ -1,0 +1,14 @@
+{
+  "meta": { "title": "Our Wards", "description": "Chilchila, Kipkelion, Kamasian and Kunyak: voters, projects and people." },
+  "hero": { "kicker": "Wadi Zetu", "title": "Four wards. One constituency.", "body": "Tap a ward to explore it. The map is schematic, not to scale." },
+  "registered": "Registered voters (2022)",
+  "share": "{pct} of the constituency register",
+  "projects": "NG-CDF entries that name this ward",
+  "projectsPending": "School-by-ward data is being confirmed.",
+  "quotePending": "Local voices coming soon, with permission",
+  "chilchila": { "name": "Chilchila", "intro": "The largest ward on the register." },
+  "kipkelion": { "name": "Kipkelion", "intro": "[[TO CONFIRM: local context from the campaign]]" },
+  "kamasian": { "name": "Kamasian", "intro": "[[TO CONFIRM: local context from the campaign]]" },
+  "kunyak": { "name": "Kunyak", "intro": "[[TO CONFIRM: local context from the campaign]]" },
+  "back": "All wards"
+}

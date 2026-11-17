@@ -1,0 +1,7 @@
+{
+  "meta": { "title": "Picha", "description": "Picha za Mhe. Hilary Kosgei kote Kipkelion Magharibi." },
+  "hero": { "kicker": "Picha", "title": "Mashinani", "body": "Picha za kampeni pekee. Kila picha ina tarehe na maelezo." },
+  "filters": { "all": "Zote", "portrait": "Picha binafsi", "community": "Jamii", "parliament": "Bunge", "projects": "Miradi", "campaign": "Kampeni", "family": "Familia" },
+  "empty": "Picha zinakuja kutoka kwa timu ya kampeni.",
+  "lightbox": { "close": "Funga", "next": "Picha inayofuata", "prev": "Picha iliyotangulia", "credit": "Picha: {credit}" }
+}

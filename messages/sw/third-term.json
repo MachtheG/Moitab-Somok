@@ -1,0 +1,31 @@
+{
+  "meta": { "title": "Mara ya Tatu", "description": "Sehemu tatu: 2017 ahadi, 2022 ushahidi, 2027 kumaliza." },
+  "hero": { "kicker": "Mara ya Tatu · Muhula wa tatu", "title": "Sehemu tatu. Mbili zimeandikwa. Moja ya kumalizia.", "scroll": "Sogeza kuanza" },
+  "acts": {
+    "promise": { "label": "Sehemu ya I", "year": "2017", "title": "Ahadi", "line": "Mwaka 2017, Kipkelion Magharibi ilimchagua kwa mara ya kwanza.", "numberLabel": "wapiga kura waliosajiliwa 2017" },
+    "proof": { "label": "Sehemu ya II", "year": "2022", "title": "Ushahidi", "line": "Mwaka 2022, baada ya miaka mitano ofisini, eneo bunge lilimrudisha.", "numberLabel": "kura za kumchagua tena, 2022" },
+    "finish": { "label": "Sehemu ya III", "year": "2027", "title": "Kumalizia", "line": "Tarehe 10 Agosti 2027, kila mmoja wa wapiga kura hawa ana sauti katika sehemu ya tatu.", "numberLabel": "wapiga kura waliosajiliwa 2022" }
+  },
+  "why": {
+    "title": "Kwa nini muhula wa tatu?",
+    "experience": { "title": "Uzoefu huongezeka", "body": "Miaka kumi Bungeni inamaanisha kujua kamati ipi, wizara ipi na kifungu kipi cha bajeti kinachosukuma mradi." },
+    "continuity": { "title": "Miradi inahitaji kukamilishwa", "body": "Idhini nyingi za NG-CDF hufadhili hatua moja: msingi, sakafu, paa. Mwendelezo huifikisha hadi mwisho." },
+    "accountable": { "title": "Tupimwe kwa rekodi", "body": "Muhula wa tatu unaombwa waziwazi, hati zikiwa mezani." }
+  },
+  "commitments": {
+    "title": "Mpango wa muhula wa tatu",
+    "draftBadge": "RASIMU · inasubiri idhini ya Mbunge",
+    "classrooms": { "title": "Kumalizia tulichoanza shuleni", "body": "Kukamilisha ujenzi wa madarasa, vyoo na sekondari ya chini uliofanywa kwa awamu, shule moja baada ya nyingine." },
+    "bursaries": { "title": "Basari zinazowafikia wanafunzi wanaostahili", "body": "Kuendelea kutanguliza basari na kuchapisha jinsi zinavyogawanywa, wadi kwa wadi." },
+    "roads": { "title": "Barabara zinazounganisha mashamba na masoko", "body": "Kuendelea kushinikiza barabara ya Kipsitet–Muhoroni–Chemelil–Mamboleo na barabara zake za kuunganisha." },
+    "coffeeDairy": { "title": "Kahawa na maziwa yenye faida", "body": "Kuwaunga mkono wakulima na vyama vya ushirika vilivyo nyuma ya riziki kuu mbili za Kipkelion Magharibi." },
+    "youth": { "title": "Mustakabali wa vijana nyumbani", "body": "Ujuzi, biashara na kilimo cha kisasa vinavyofanya kubaki Kipkelion Magharibi kuwa chaguo halisi." },
+    "security": { "title": "Jamii salama", "body": "Kuendeleza msaada wa NG-CDF kwa vituo vya polisi na ofisi za machifu pale jamii zinapoomba." }
+  },
+  "letter": {
+    "title": "Barua kutoka kwa Hilary",
+    "draftBadge": "RASIMU · itaandikwa pamoja na Mbunge na kuidhinishwa naye",
+    "body": "[[TO CONFIRM: letter text from the MP]]",
+    "signoff": "Mhe. Hilary Kiplang'at Kosgei"
+  }
+}
