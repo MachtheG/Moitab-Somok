@@ -13,3 +13,14 @@ npm-debug.log*
 .vercel
 *.tsbuildinfo
 next-env.d.ts
+
+# design-sync
+/.ds-sync/
+/ds-bundle/
+/.design-sync/.cache/
+/.design-sync/learnings/
+/.design-sync/node_modules
+/design-system/dist/
+
+# CI workflow kept local until the gh token has the `workflow` scope
+/.github/workflows/

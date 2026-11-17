@@ -1,7 +1,29 @@
 {
-  "meta": { "title": "Gallery", "description": "Photos of Hon. Hilary Kosgei across Kipkelion West." },
-  "hero": { "kicker": "Picha", "title": "On the ground", "body": "Campaign photographs only. Every photo is dated and captioned." },
-  "filters": { "all": "All", "portrait": "Portraits", "community": "Community", "parliament": "Parliament", "projects": "Projects", "campaign": "Campaign", "family": "Family" },
+  "meta": {
+    "title": "Gallery",
+    "description": "Photos of Hon. Hilary Kosgei across Kipkelion West."
+  },
+  "hero": {
+    "kicker": "Picha",
+    "title": "On the ground",
+    "body": "Campaign photographs only. Every photo is dated and captioned."
+  },
+  "filters": {
+    "all": "All",
+    "portrait": "Portraits",
+    "community": "Community",
+    "parliament": "Parliament",
+    "projects": "Projects",
+    "campaign": "Campaign",
+    "family": "Family"
+  },
   "empty": "Photos are on their way from the campaign team.",
-  "lightbox": { "close": "Close", "next": "Next photo", "prev": "Previous photo", "credit": "Photo: {credit}" }
+  "lightbox": {
+    "close": "Close",
+    "next": "Next photo",
+    "prev": "Previous photo",
+    "credit": "Photo: {credit}"
+  },
+  "slotsTitle": "Shots we are waiting for",
+  "slotsBody": "Every frame below is a placeholder for a real, dated campaign photograph."
 }

@@ -1,6 +1,13 @@
 {
-  "meta": { "title": "In the News", "description": "Coverage of Hon. Hilary Kosgei's work, summarised in our own words with links to the originals." },
-  "hero": { "kicker": "Habari", "title": "In the news", "body": "Our one-line summaries. Read the full stories at the source." },
+  "meta": {
+    "title": "In the News",
+    "description": "Coverage of Hon. Hilary Kosgei's work, summarised in our own words with links to the originals."
+  },
+  "hero": {
+    "kicker": "Habari",
+    "title": "In the news",
+    "body": "Our one-line summaries. Read the full stories at the source."
+  },
   "readAt": "Read at {outlet}",
   "empty": "More coverage is being verified.",
   "items": {
@@ -9,5 +16,7 @@
     "nation-pesticides-board": "[[TO CONFIRM]]",
     "kenyans-land-fraud": "[[TO CONFIRM]]",
     "nation-coffee-day-2022": "[[TO CONFIRM]]"
-  }
+  },
+  "pendingTitle": "Coverage being verified",
+  "pendingBody": "These stories were found but not yet read and summarised by us, so they are not listed."
 }

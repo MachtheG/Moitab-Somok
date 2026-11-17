@@ -1,7 +1,19 @@
 {
-  "meta": { "title": "UDA & Party", "description": "Hon. Hilary Kosgei and the United Democratic Alliance." },
-  "hero": { "kicker": "Chama", "title": "UDA", "body": "Elected on a Jubilee ticket in 2017, re-elected on the United Democratic Alliance ticket in 2022." },
-  "history": { "title": "Party history", "jubilee": "Jubilee Party, 2017–2022", "uda": "United Democratic Alliance, 2022–present" },
+  "meta": {
+    "title": "UDA & Party",
+    "description": "Hon. Hilary Kosgei and the United Democratic Alliance."
+  },
+  "hero": {
+    "kicker": "Chama",
+    "title": "UDA",
+    "body": "Elected on a Jubilee ticket in 2017, re-elected on the United Democratic Alliance ticket in 2022."
+  },
+  "history": {
+    "title": "Party history",
+    "jubilee": "Jubilee Party, 2017–2022",
+    "uda": "United Democratic Alliance, 2022–present"
+  },
   "nomination": "2027 nomination: [[TO CONFIRM]]",
-  "colours": "The yellow and green on this site are the UDA colours."
+  "colours": "The yellow and green on this site are the UDA colours.",
+  "photo": "Photo coming: party"
 }

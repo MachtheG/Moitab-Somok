@@ -1,0 +1,63 @@
+/* Mara ya Tatu tokens. Colours are the locked palette (docs/COLOR-LOCK.md): no other hues. */
+:root {
+  /* fonts */
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-sans: "Instrument Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* neutrals */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-onyx-900: #FAFAFA;
+  --color-onyx-850: #F5F5F4;
+  --color-onyx-800: #EFEFED;
+  --color-onyx-700: #E2E2DF;
+  --color-onyx-600: #CACAC6;
+
+  /* UDA yellow (signal) */
+  --color-uda-50: #FFF9E5;
+  --color-uda-100: #FFF0BF;
+  --color-uda-200: #FFE485;
+  --color-uda-300: #FFD84A;
+  --color-uda-400: #FFCE1F;
+  --color-uda-500: #FFC700;
+  --color-uda-600: #E0AE00;
+  --color-uda-700: #B38A00;
+  --color-uda-800: #8A6900;
+  --color-uda-900: #6B5200;
+
+  /* green */
+  --color-forest-50: #E6F5E6;
+  --color-forest-100: #C2E8C2;
+  --color-forest-200: #8ED28E;
+  --color-forest-300: #4FB94F;
+  --color-forest-400: #1F9E1F;
+  --color-forest-500: #008000;
+  --color-forest-600: #006B00;
+  --color-forest-700: #005200;
+  --color-forest-800: #003D00;
+  --color-forest-900: #002900;
+
+  /* data ramp (ordinal) */
+  --color-ramp-1: #D4B054;
+  --color-ramp-2: #C29A00;
+  --color-ramp-3: #A07E00;
+  --color-ramp-4: #7A6100;
+  --color-ramp-5: #4D3D00;
+
+  /* roles */
+  --surface-day: var(--color-white);
+  --surface-night: var(--color-forest-900);
+  --ink: var(--color-black);
+  --ink-on-night: var(--color-white);
+  --signal: var(--color-uda-500);
+  --gold-ink: var(--color-uda-800);
+
+  /* motion */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-1: 180ms;
+  --dur-2: 260ms;
+  --dur-3: 420ms;
+  --dur-4: 700ms;
+}

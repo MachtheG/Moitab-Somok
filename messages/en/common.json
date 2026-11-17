@@ -18,7 +18,11 @@
     "privacy": "Privacy",
     "menu": "Menu",
     "close": "Close",
-    "skip": "Skip to content"
+    "skip": "Skip to content",
+    "more": "All pages",
+    "primary": "Main",
+    "mobile": "Quick links",
+    "current": "current page"
   },
   "countdown": {
     "pill": "D-{days}",
@@ -68,9 +72,19 @@
     "tagline": "Two terms. One constituency. One more to finish the work.",
     "paidFor": "[[TO CONFIRM: authorisation line, e.g. 'Published by the Hilary Kosgei 2027 campaign']]",
     "sources": "Every figure on this site links to its source.",
-    "follow": "Follow"
+    "follow": "Follow",
+    "pages": "Pages",
+    "channels": "Official channels",
+    "channelsNote": "Channels to be confirmed by the campaign",
+    "top": "Back to top"
   },
   "placeholder": {
     "toConfirm": "To confirm"
-  }
+  },
+  "brand": {
+    "name": "Hilary Kosgei",
+    "sub": "MP · Kipkelion West"
+  },
+  "slogan": "Mara ya Tatu, Kazi Zaidi",
+  "sloganEn": "Third time, more work"
 }

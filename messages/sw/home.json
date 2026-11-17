@@ -22,13 +22,26 @@
     "fNote": "Mstari wa ziada, baada ya kuthibitishwa"
   },
   "beats": {
-    "one": { "kicker": "01 · Yeye ni nani", "title": "Kutoka Shule ya Msingi ya Koru Farm hadi Bunge la Kitaifa", "body": "Shule ya Msingi ya Koru Farm, Shule ya Upili ya Kericho, shahada ya uchumi kutoka Chuo Kikuu cha Kenyatta, kisha bodi ya Shirika la Viwango la Kenya (KEBS). Alichaguliwa kuwa mbunge 2017, akachaguliwa tena 2022." },
-    "two": { "kicker": "02 · Rekodi", "title": "Mihula miwili kwa maandishi", "body": "Fedha za NG-CDF zilizoidhinishwa kwa Kipkelion Magharibi, kazi za kamati katika Mabunge mawili, na kila takwimu ikiwa na kiungo cha hati yake." },
-    "three": { "kicker": "03 · Kinachofuata", "title": "Muhula wa tatu ni wa kumalizia", "body": "Madarasa, basari, barabara, na uchumi wa kahawa na maziwa. Mpango wa rasimu uko wazi kwa maoni yako." }
+    "one": {
+      "kicker": "01 · Yeye ni nani",
+      "title": "Kutoka Shule ya Msingi ya Koru Farm hadi Bunge la Kitaifa",
+      "body": "Shule ya Msingi ya Koru Farm, Shule ya Upili ya Kericho, shahada ya uchumi kutoka Chuo Kikuu cha Kenyatta, kisha bodi ya Shirika la Viwango la Kenya (KEBS). Alichaguliwa kuwa mbunge 2017, akachaguliwa tena 2022."
+    },
+    "two": {
+      "kicker": "02 · Rekodi",
+      "title": "Mihula miwili kwa maandishi",
+      "body": "Fedha za NG-CDF zilizoidhinishwa kwa Kipkelion Magharibi, kazi za kamati katika Mabunge mawili, na kila takwimu ikiwa na kiungo cha hati yake."
+    },
+    "three": {
+      "kicker": "03 · Kinachofuata",
+      "title": "Muhula wa tatu ni wa kumalizia",
+      "body": "Madarasa, basari, barabara, na uchumi wa kahawa na maziwa. Mpango wa rasimu uko wazi kwa maoni yako."
+    }
   },
   "stats": {
     "title": "Kwa takwimu",
-    "seeAll": "Takwimu zote"
+    "seeAll": "Takwimu zote",
+    "kicker": "02 · Rekodi"
   },
   "wards": {
     "title": "Wadi nne, eneo bunge moja",

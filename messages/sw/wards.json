@@ -1,14 +1,40 @@
 {
-  "meta": { "title": "Wadi Zetu", "description": "Chilchila, Kipkelion, Kamasian na Kunyak: wapiga kura, miradi na watu." },
-  "hero": { "kicker": "Wadi Zetu", "title": "Wadi nne. Eneo bunge moja.", "body": "Gusa wadi kuigundua. Ramani ni ya mfano, si kwa kipimo." },
+  "meta": {
+    "title": "Wadi Zetu",
+    "description": "Chilchila, Kipkelion, Kamasian na Kunyak: wapiga kura, miradi na watu."
+  },
+  "hero": {
+    "kicker": "Wadi Zetu",
+    "title": "Wadi nne. Eneo bunge moja.",
+    "body": "Gusa wadi kuigundua. Ramani ni ya mfano, si kwa kipimo."
+  },
   "registered": "Wapiga kura waliosajiliwa (2022)",
   "share": "{pct} ya daftari la eneo bunge",
   "projects": "Miradi ya NG-CDF inayotaja wadi hii",
   "projectsPending": "Data ya shule kwa wadi inathibitishwa.",
   "quotePending": "Sauti za wenyeji zinakuja, kwa ridhaa yao",
-  "chilchila": { "name": "Chilchila", "intro": "Wadi kubwa zaidi kwenye daftari." },
-  "kipkelion": { "name": "Kipkelion", "intro": "[[TO CONFIRM: local context from the campaign]]" },
-  "kamasian": { "name": "Kamasian", "intro": "[[TO CONFIRM: local context from the campaign]]" },
-  "kunyak": { "name": "Kunyak", "intro": "[[TO CONFIRM: local context from the campaign]]" },
-  "back": "Wadi zote"
+  "chilchila": {
+    "name": "Chilchila",
+    "intro": "Wadi kubwa zaidi kwenye daftari."
+  },
+  "kipkelion": {
+    "name": "Kipkelion",
+    "intro": "[[TO CONFIRM: local context from the campaign]]"
+  },
+  "kamasian": {
+    "name": "Kamasian",
+    "intro": "[[TO CONFIRM: local context from the campaign]]"
+  },
+  "kunyak": {
+    "name": "Kunyak",
+    "intro": "[[TO CONFIRM: local context from the campaign]]"
+  },
+  "back": "Wadi zote",
+  "schematic": "Ramani ya mfano, si kwa kipimo",
+  "open": "Fungua {name}",
+  "select": "Chagua wadi",
+  "entriesCount": "Miradi {count}",
+  "none": "Hakuna miradi inayotaja wadi hii moja kwa moja.",
+  "photo": "Picha inakuja: Mhe. Kosgei katika {name}",
+  "explore": "Gundua {name}"
 }

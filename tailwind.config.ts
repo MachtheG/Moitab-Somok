@@ -78,6 +78,10 @@ const config: Config = {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(-50%)" },
         },
+        flap: {
+          "0%": { transform: "rotateX(0deg)" },
+          "100%": { transform: "rotateX(-90deg)" },
+        },
         "pulse-glow": {
           "0%, 100%": { opacity: "0.6" },
           "50%": { opacity: "1" },
@@ -87,6 +91,7 @@ const config: Config = {
         "fade-up": "fade-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards",
         marquee: "marquee 40s linear infinite",
         "pulse-glow": "pulse-glow 3s ease-in-out infinite",
+        flap: "flap 260ms cubic-bezier(0.65, 0, 0.35, 1) forwards",
       },
       letterSpacing: {
         tightest: "-0.06em",

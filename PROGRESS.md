@@ -1,5 +1,16 @@
 # Progress
 
+## Phases 2–9 (2026-11-17, "finish the project")
+- [x] Design system: tokens, hat-trick dots, StatCard, SourceBadge, SplitFlap, SectionHeading, PhotoSlot, ContourLines, ShareWhatsApp, Lightbox; synced to Claude Design (project "Moitab Somok", tokens-first)
+- [x] Layout: sticky header with scroll-filling dot, countdown pill, EN⇄SW switch, full-screen menu, thumb-reach mobile bar, footer with Lite mode
+- [x] All 12 tabs + /record/[id] (404 projects) + /wards/[ward]
+- [x] Forms (Zod, consent, honeypot, time-trap, rate limit, console/Resend/Supabase adapters) + tests
+- [x] SEO: metadata, hreflang, sitemap, robots, JSON-LD Person, OG image, WhatsApp share cards
+- [x] Security headers; CI (checks + sweep + build); Vercel-ready
+- [ ] Lighthouse ≥ 95 not measured (no Lighthouse run in this environment)
+- [ ] Phase 2 design canvases skipped (D-018); /review and /security-review not run
+- [ ] Real photos, certified Hansard quotes, verified news (see CONTENT-NEEDED)
+
 ## Phase 1: Audit, lock & research (2026-11-17)
 - [x] Inventory; source repo chosen (D-001)
 - [x] `docs/COLOR-LOCK.md` (34 hexes + 4 rgba derivatives, contrast table)

@@ -1,35 +1,48 @@
 import { useTranslations } from "next-intl";
-import { HatTrick } from "@/components/shared/hat-trick";
 import { Link } from "@/i18n/navigation";
-import { tabs } from "@/lib/nav";
 import { CountdownPill } from "./countdown-pill";
+import { HatTrickScroll } from "./hat-trick-scroll";
 import { LocaleSwitch } from "./locale-switch";
+import { MenuSheet } from "./menu-sheet";
+import { NavLink } from "./nav-link";
 
-/** Phase 1 shell. Final design lands in Phase 4 after Checkpoint 2. */
+const DESKTOP = [
+  { key: "record", href: "/record" },
+  { key: "thirdTerm", href: "/third-term" },
+  { key: "wards", href: "/wards" },
+  { key: "journey", href: "/journey" },
+  { key: "elections", href: "/elections" },
+] as const;
+
 export function SiteHeader() {
   const t = useTranslations("common");
   return (
-    <header className="border-b border-black/10">
-      <a href="#main" className="sr-only focus:not-sr-only">{t("nav.skip")}</a>
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-4 py-2">
-        <Link href="/" className="inline-flex min-h-11 items-center gap-3 font-display text-lg font-bold">
-          <HatTrick label={t("hatTrick.label")} />
-          Kosgei
+    <header className="sticky top-0 z-40 border-b border-black/10 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/80" style={{ viewTransitionName: "site-header" }}>
+      <a href="#main" className="sr-only z-50 rounded bg-black px-3 py-2 text-white focus:not-sr-only focus:fixed focus:left-2 focus:top-2">{t("nav.skip")}</a>
+      <div className="shell flex h-[var(--header-h)] items-center justify-between gap-3">
+        <Link href="/" className="tap gap-3" aria-label={`${t("brand.name")}, ${t("nav.home")}`}>
+          <HatTrickScroll label={t("hatTrick.label")} />
+          <span className="leading-none">
+            <span className="block font-display text-base font-extrabold tracking-tight sm:text-lg">{t("brand.name")}</span>
+            <span className="hidden font-mono text-[10px] uppercase tracking-widest text-black/70 sm:block">{t("brand.sub")}</span>
+          </span>
         </Link>
-        <div className="flex items-center gap-2">
+        <nav aria-label={t("nav.primary")} className="hidden lg:block">
+          <ul className="flex items-center gap-1 text-sm">
+            {DESKTOP.map((tab) => (
+              <li key={tab.key}>
+                <NavLink href={tab.href} className="tap rounded-full px-3 hover:bg-black/[0.05]" activeClassName="bg-black text-white hover:bg-black">{t(`nav.${tab.key}`)}</NavLink>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <div className="flex items-center gap-1.5">
           <CountdownPill />
           <LocaleSwitch />
+          <NavLink href="/get-involved" className="tap hidden rounded-full bg-uda-500 px-4 text-sm font-semibold text-black hover:bg-uda-400 md:inline-flex">{t("nav.getInvolved")}</NavLink>
+          <span className="hidden sm:inline-flex"><MenuSheet /></span>
         </div>
       </div>
-      <nav aria-label={t("nav.menu")} className="mx-auto max-w-6xl overflow-x-auto px-4 pb-2">
-        <ul className="flex gap-1 whitespace-nowrap text-sm">
-          {tabs.map((tab) => (
-            <li key={tab.key}>
-              <Link href={tab.href} className="inline-flex min-h-11 items-center px-2 hover:underline">{t(`nav.${tab.key}`)}</Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
     </header>
   );
 }

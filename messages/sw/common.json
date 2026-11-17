@@ -18,7 +18,11 @@
     "privacy": "Faragha",
     "menu": "Menyu",
     "close": "Funga",
-    "skip": "Ruka hadi maudhui"
+    "skip": "Ruka hadi maudhui",
+    "more": "Kurasa zote",
+    "primary": "Kuu",
+    "mobile": "Viungo vya haraka",
+    "current": "ukurasa wa sasa"
   },
   "countdown": {
     "pill": "Siku {days}",
@@ -68,9 +72,19 @@
     "tagline": "Mihula miwili. Eneo bunge moja. Mmoja zaidi kumaliza kazi.",
     "paidFor": "[[TO CONFIRM: authorisation line, e.g. 'Published by the Hilary Kosgei 2027 campaign']]",
     "sources": "Kila takwimu kwenye tovuti hii ina kiungo cha chanzo chake.",
-    "follow": "Tufuate"
+    "follow": "Tufuate",
+    "pages": "Kurasa",
+    "channels": "Akaunti rasmi",
+    "channelsNote": "Akaunti zitathibitishwa na kampeni",
+    "top": "Rudi juu"
   },
   "placeholder": {
     "toConfirm": "Inasubiri uthibitisho"
-  }
+  },
+  "brand": {
+    "name": "Hilary Kosgei",
+    "sub": "Mbunge · Kipkelion Magharibi"
+  },
+  "slogan": "Mara ya Tatu, Kazi Zaidi",
+  "sloganEn": "Mara ya tatu, kazi zaidi"
 }

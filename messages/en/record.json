@@ -1,36 +1,89 @@
 {
-  "meta": { "title": "The Record", "description": "Two terms for Kipkelion West in sourced numbers: NG-CDF approvals, committee work and floor activity." },
+  "meta": {
+    "title": "The Record",
+    "description": "Two terms for Kipkelion West in sourced numbers: NG-CDF approvals, committee work and floor activity."
+  },
   "hero": {
     "kicker": "Kazi Imeonekana",
     "title": "The record, with receipts",
     "body": "Every number below links to the document it comes from. Where something is not yet confirmed, we say so."
   },
   "stats": {
-    "terms": { "label": "Terms served as MP", "detail": "Elected 2017 (Jubilee), re-elected 2022 (UDA)" },
-    "votes2022": { "label": "Votes in 2022", "detail": "Declared MP for Kipkelion West, Gazette Notice 9950" },
-    "registered2022": { "label": "Registered voters, 2022", "detail": "Across Chilchila, Kipkelion, Kamasian and Kunyak" },
-    "registerGrowth": { "label": "Growth in the voter register, 2017–2022", "detail": "From 46,512 to 52,960" },
-    "ngcdfFourYears": { "label": "NG-CDF approved for Kipkelion West, FY2022/23–2025/26", "detail": "Approved allocations from the NG-CDF Board, not spending records" },
-    "ngcdfGrowth": { "label": "Rise in the annual NG-CDF allocation, FY2022/23 to FY2025/26", "detail": "KSh 138.2M to KSh 183.0M" },
-    "projectLines": { "label": "NG-CDF project lines approved", "detail": "FY2020/21, 2022/23 and 2023/24 published code lists" },
-    "educationLines": { "label": "Of those, for schools", "detail": "Primary, junior secondary and secondary" },
-    "educationKsh": { "label": "Approved for school infrastructure", "detail": "Same three code lists" },
-    "bursariesKsh": { "label": "Approved for bursaries", "detail": "Same three code lists" },
-    "divisions": { "label": "Recorded divisions voted in, 13th Parliament", "detail": "Mzalendo count" },
-    "hansard": { "label": "Hansard contributions, 13th Parliament", "detail": "Mzalendo count: passages in Hansard attributed to him" },
-    "committees": { "label": "Parliamentary committees served on", "detail": "Two in the 12th Parliament; 13th-Parliament roles to be confirmed" },
-    "wards": { "label": "Wards", "detail": "Chilchila, Kipkelion, Kamasian, Kunyak" }
+    "terms": {
+      "label": "Terms served as MP",
+      "detail": "Elected 2017 (Jubilee), re-elected 2022 (UDA)"
+    },
+    "votes2022": {
+      "label": "Votes in 2022",
+      "detail": "Declared MP for Kipkelion West, Gazette Notice 9950"
+    },
+    "registered2022": {
+      "label": "Registered voters, 2022",
+      "detail": "Across Chilchila, Kipkelion, Kamasian and Kunyak"
+    },
+    "registerGrowth": {
+      "label": "Growth in the voter register, 2017–2022",
+      "detail": "From 46,512 to 52,960"
+    },
+    "ngcdfFourYears": {
+      "label": "NG-CDF approved for Kipkelion West, FY2022/23–2025/26",
+      "detail": "Approved allocations from the NG-CDF Board, not spending records"
+    },
+    "ngcdfGrowth": {
+      "label": "Rise in the annual NG-CDF allocation, FY2022/23 to FY2025/26",
+      "detail": "KSh 138.2M to KSh 183.0M"
+    },
+    "projectLines": {
+      "label": "NG-CDF project lines approved",
+      "detail": "FY2020/21, 2022/23 and 2023/24 published code lists"
+    },
+    "educationLines": {
+      "label": "Of those, for schools",
+      "detail": "Primary, junior secondary and secondary"
+    },
+    "educationKsh": {
+      "label": "Approved for school infrastructure",
+      "detail": "Same three code lists"
+    },
+    "bursariesKsh": {
+      "label": "Approved for bursaries",
+      "detail": "Same three code lists"
+    },
+    "divisions": {
+      "label": "Recorded divisions voted in, 13th Parliament",
+      "detail": "Mzalendo count"
+    },
+    "hansard": {
+      "label": "Hansard contributions, 13th Parliament",
+      "detail": "Mzalendo count: passages in Hansard attributed to him"
+    },
+    "committees": {
+      "label": "Parliamentary committees served on",
+      "detail": "Two in the 12th Parliament; 13th-Parliament roles to be confirmed"
+    },
+    "wards": {
+      "label": "Wards",
+      "detail": "Chilchila, Kipkelion, Kamasian, Kunyak"
+    }
   },
   "allocations": {
     "title": "NG-CDF allocation by year",
     "caption": "Approved allocations for Kipkelion West. Source: NG-CDF Board, via Mzalendo.",
-    "gapNote": "The published project list for {fy} adds up to {codeList}, which is {gap} less than the approved {approved}. We are asking the NG-CDF office why."
+    "gapNote": "The published project list for {fy} adds up to {codeList}, which is {gap} less than the approved {approved}. We are asking the NG-CDF office why.",
+    "kicker": "02 · NG-CDF",
+    "approved": "Approved",
+    "codeList": "Published project list",
+    "fyShort": "FY {fy}"
   },
   "sankey": {
     "title": "Where the money went",
     "body": "NG-CDF projects approved for Kipkelion West, by sector. Tap a band to see the projects.",
     "wardsPending": "The ward breakdown is coming once school-to-ward data is confirmed.",
-    "inferred": "Sector inferred from the project name"
+    "inferred": "Sector inferred from the project name",
+    "kicker": "03 · The flow",
+    "total": "Approved in the published lists",
+    "years": "FY2020/21, 2022/23 and 2023/24 code lists",
+    "tap": "See these projects"
   },
   "sectors": {
     "primary-education": "Primary schools",
@@ -96,6 +149,36 @@
     "status": "Status in the code list",
     "fy": "Financial year",
     "sourcePdf": "Source document (PDF)",
-    "neutral": "Approved by the Kipkelion West NG-CDF Committee under the NG-CDF Act."
+    "neutral": "Approved by the Kipkelion West NG-CDF Committee under the NG-CDF Act.",
+    "back": "All projects",
+    "sector": "Sector",
+    "list": "List {list}, item {sn}",
+    "code": "Project code",
+    "activity": "What was approved",
+    "inferredNote": "This year’s list has no sector headings; the sector was inferred from the project name.",
+    "wardNamed": "Ward named in the document",
+    "share": "Share this project"
+  },
+  "statsTitle": "Fourteen numbers, every one sourced",
+  "statsKicker": "01 · In numbers",
+  "explorer": {
+    "kicker": "04 · Every project",
+    "title": "All approved project lines",
+    "search": "Search projects",
+    "noResults": "No projects match these filters.",
+    "showMore": "Show more",
+    "amount": "Amount",
+    "clear": "Clear filters"
+  },
+  "timelineKicker": "05 · Timeline",
+  "committeesKicker": "06 · Committees",
+  "hansardKicker": "07 · Hansard",
+  "floor": {
+    "title": "Floor activity, 13th Parliament",
+    "method": "Counted by Mzalendo: Hansard passages attributed to him, motions he moved, and recorded divisions. Other trackers count differently.",
+    "contributions": "Hansard contributions",
+    "motions": "Motions moved",
+    "papers": "Papers laid",
+    "divisions": "Recorded divisions voted in"
   }
 }

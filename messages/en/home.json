@@ -22,13 +22,26 @@
     "fNote": "Supporting line, only once verified"
   },
   "beats": {
-    "one": { "kicker": "01 · Who", "title": "From Koru Farm Primary to the National Assembly", "body": "Koru Farm Primary, Kericho High School, an economics degree from Kenyatta University, then the Kenya Bureau of Standards board. Elected MP in 2017, re-elected in 2022." },
-    "two": { "kicker": "02 · The record", "title": "What two terms look like on paper", "body": "NG-CDF allocations approved for Kipkelion West, committee work in two Parliaments, and every figure linked to its source document." },
-    "three": { "kicker": "03 · What's next", "title": "The third term is for finishing", "body": "Classrooms, bursaries, roads and the coffee and dairy economy. The draft plan is open for your input." }
+    "one": {
+      "kicker": "01 · Who",
+      "title": "From Koru Farm Primary to the National Assembly",
+      "body": "Koru Farm Primary, Kericho High School, an economics degree from Kenyatta University, then the Kenya Bureau of Standards board. Elected MP in 2017, re-elected in 2022."
+    },
+    "two": {
+      "kicker": "02 · The record",
+      "title": "What two terms look like on paper",
+      "body": "NG-CDF allocations approved for Kipkelion West, committee work in two Parliaments, and every figure linked to its source document."
+    },
+    "three": {
+      "kicker": "03 · What's next",
+      "title": "The third term is for finishing",
+      "body": "Classrooms, bursaries, roads and the coffee and dairy economy. The draft plan is open for your input."
+    }
   },
   "stats": {
     "title": "In numbers",
-    "seeAll": "All statistics"
+    "seeAll": "All statistics",
+    "kicker": "02 · The record"
   },
   "wards": {
     "title": "Four wards, one constituency",

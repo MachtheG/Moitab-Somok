@@ -1,0 +1,11 @@
+{
+  "name": "@kosgei/design-system",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Mara ya Tatu design system: the reusable UI of the Kosgei 2027 site, packaged for Claude Design sync.",
+  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "style": "dist/ds.css",
+  "sideEffects": ["*.css"]
+}

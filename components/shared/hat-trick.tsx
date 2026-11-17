@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 export function HatTrick({ filled = 2, tone = "day", label, className }: { filled?: number; tone?: "day" | "night"; label: string; className?: string }) {
   const ink = tone === "night" ? "border-uda-500 bg-uda-500" : "border-black bg-black";
   return (
-    <span role="img" aria-label={label} className={cn("inline-flex items-center gap-2", className)}>
+    <span role={label ? "img" : undefined} aria-label={label || undefined} aria-hidden={label ? undefined : true} className={cn("inline-flex items-center gap-2", className)}>
       {[0, 1, 2].map((i) => (
         <span key={i} className={cn("size-3 rounded-full border-[1.5px]", ink, i >= filled && "bg-transparent")} />
       ))}

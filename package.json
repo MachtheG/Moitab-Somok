@@ -14,7 +14,8 @@
     "check:translations": "tsx scripts/check-translations.ts",
     "check:sources": "tsx scripts/check-sources.ts",
     "audit:colors": "tsx scripts/audit-colors.ts",
-    "check": "npm run check:translations && npm run check:sources && npm run audit:colors && npm run typecheck && npm run lint && npm test"
+    "check": "npm run check:translations && npm run check:sources && npm run audit:colors && npm run typecheck && npm run lint && npm test",
+    "build:ds": "node design-system/build.mjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.4",
@@ -48,5 +49,9 @@
     "tsx": "^4.23.15",
     "typescript": "^5.7.2",
     "vitest": "^5.1.0"
-  }
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "description": "Moitab Somok: campaign website for Hon. Hilary Kiplang'at Kosgei, MP for Kipkelion West (Mara ya Tatu, 2027)."
 }

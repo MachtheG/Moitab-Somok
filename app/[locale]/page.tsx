@@ -1,16 +1,22 @@
-import { useTranslations } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
-import { use } from "react";
+import { Beats } from "@/components/home/beats";
+import { CountdownSection } from "@/components/home/countdown-section";
+import { JoinCta } from "@/components/home/join-cta";
+import { NumeralHero } from "@/components/home/numeral-hero";
+import { StatBand } from "@/components/home/stat-band";
+import { WardsTeaser } from "@/components/home/wards-teaser";
 
-export default function HomePage({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = use(params);
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   setRequestLocale(locale);
-  const t = useTranslations("home.hero");
   return (
-    <section className="mx-auto max-w-6xl px-4 py-16">
-      <p className="kicker">{t("kicker")}</p>
-      <h1 className="mt-3 font-display text-6xl font-extrabold sm:text-8xl">{t("headline")}</h1>
-      <p className="mt-6 max-w-xl text-lg">{t("subhead")}</p>
-    </section>
+    <>
+      <NumeralHero />
+      <Beats />
+      <StatBand />
+      <CountdownSection />
+      <WardsTeaser />
+      <JoinCta />
+    </>
   );
 }

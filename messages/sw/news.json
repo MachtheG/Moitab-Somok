@@ -1,6 +1,13 @@
 {
-  "meta": { "title": "Habari", "description": "Habari kuhusu kazi ya Mhe. Hilary Kosgei, kwa muhtasari wetu na viungo vya habari asili." },
-  "hero": { "kicker": "Habari", "title": "Katika habari", "body": "Muhtasari wetu wa mstari mmoja. Soma habari kamili kwenye chanzo." },
+  "meta": {
+    "title": "Habari",
+    "description": "Habari kuhusu kazi ya Mhe. Hilary Kosgei, kwa muhtasari wetu na viungo vya habari asili."
+  },
+  "hero": {
+    "kicker": "Habari",
+    "title": "Katika habari",
+    "body": "Muhtasari wetu wa mstari mmoja. Soma habari kamili kwenye chanzo."
+  },
   "readAt": "Soma kwenye {outlet}",
   "empty": "Habari zaidi zinathibitishwa.",
   "items": {
@@ -9,5 +16,7 @@
     "nation-pesticides-board": "[[TO CONFIRM]]",
     "kenyans-land-fraud": "[[TO CONFIRM]]",
     "nation-coffee-day-2022": "[[TO CONFIRM]]"
-  }
+  },
+  "pendingTitle": "Habari zinazothibitishwa",
+  "pendingBody": "Habari hizi zimepatikana lakini bado hatujazisoma na kuzifupisha, kwa hivyo hazijaorodheshwa."
 }

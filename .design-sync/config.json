@@ -1,0 +1,18 @@
+{
+  "projectId": "f8399b4e-bee1-4cef-9957-bc00fe3a5664",
+  "shape": "package",
+  "pkg": "@kosgei/design-system",
+  "globalName": "KosgeiDS",
+  "buildCmd": "npm run build:ds",
+  "cssEntry": "dist/ds.css",
+  "extraFonts": [
+    "fonts.css"
+  ],
+  "tsconfig": "../tsconfig.json",
+  "overrides": {
+    "Button": {
+      "cardMode": "column"
+    }
+  },
+  "readmeHeader": ".design-sync/conventions.md"
+}
