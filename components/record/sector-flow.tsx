@@ -31,7 +31,7 @@ export async function SectorFlow() {
     return { ...r, thick, y0, y1, color: RAMP[Math.min(i, RAMP.length - 1)]! };
   });
   return (
-    <section className="shell py-14" id="flow">
+    <section className="shell scroll-mt-32 py-14" id="flow">
       <SectionHeading kicker={t("sankey.kicker")} title={t("sankey.title")} lede={t("sankey.body")} filled={2} />
       <div className="mt-8 grid grid-cols-[minmax(4.5rem,22%)_1fr] gap-0">
         <div className="relative">

@@ -10,7 +10,7 @@ export async function AllocationChart() {
   const locale = await getLocale();
   const max = Math.max(...ngcdfAllocations.map((a) => a.amount));
   return (
-    <section className="bg-onyx-900 py-14">
+    <section id="by-year" className="scroll-mt-32 bg-onyx-900 py-14">
       <div className="shell">
         <SectionHeading kicker={t("kicker")} title={t("title")} lede={t("caption")} filled={2} />
         <ol className="mt-8 space-y-4" aria-label={t("title")}>

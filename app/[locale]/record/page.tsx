@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { AllocationChart } from "@/components/record/allocation-chart";
 import { CommitteesList } from "@/components/record/committees-list";
 import { HansardHighlights } from "@/components/record/hansard-highlights";
+import { JumpNav } from "@/components/record/jump-nav";
 import { ProjectsSection } from "@/components/record/projects-section";
 import { RecordHero } from "@/components/record/record-hero";
 import { RecordTimeline } from "@/components/record/record-timeline";
@@ -23,6 +24,7 @@ export default async function RecordPage({ params }: Props) {
   return (
     <>
       <RecordHero />
+      <JumpNav />
       <StatsGrid />
       <AllocationChart />
       <SectorFlow />

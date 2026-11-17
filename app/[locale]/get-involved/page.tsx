@@ -30,7 +30,7 @@ export default async function GetInvolvedPage({ params }: Props) {
         </section>
         <section id="volunteer" className="scroll-mt-20 rounded-3xl bg-onyx-900 p-6 sm:p-8">
           <h2 className="display-md">{t("volunteer.title")}</h2>
-          <div className="mt-6"><CampaignForm kind="volunteer" cta={t("volunteer.cta")} success={t("volunteer.success")} wardNames={wardNames} /></div>
+          <div className="mt-6"><CampaignForm kind="volunteer" cta={t("volunteer.cta")} success={t("volunteer.success")} wardNames={wardNames} variant="forest" /></div>
         </section>
       </div>
       <div className="shell"><PhotoSlot slot="get-involved" tone="day" label={c("slot", { slot: "get-involved" })} alt={c("placeholderAlt")} className="aspect-[21/9] rounded-3xl" /></div>

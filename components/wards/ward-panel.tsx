@@ -9,7 +9,7 @@ export type WardView = { slug: string; name: string; color: string; registered: 
 export function WardPanel({ ward }: { ward: WardView }) {
   const t = useTranslations("wards");
   return (
-    <div className="rounded-3xl border-2 border-black p-6" aria-live="polite">
+    <div id="ward-panel" className="scroll-mt-24 rounded-3xl border-2 border-black p-6" aria-live="polite">
       <p className="flex items-center gap-2 font-mono text-xs uppercase tracking-widest"><span className="size-3 rounded-full border border-black" style={{ backgroundColor: ward.color }} />{t("hero.kicker")}</p>
       <h2 className="display-md mt-2">{ward.name}</h2>
       <p className="mt-2 text-black/75">{ward.intro.includes("[[TO CONFIRM") ? "" : ward.intro}</p>

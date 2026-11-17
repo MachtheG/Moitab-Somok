@@ -15,10 +15,10 @@ export async function ActChapter({ chapter, index }: { chapter: Chapter; index: 
   const k = chapter.key;
   const finale = k === "finish";
   return (
-    <section className="night sticky top-[var(--header-h)] flex min-h-[calc(100svh-var(--header-h))] items-center overflow-hidden border-t border-white/10" aria-labelledby={`act-${k}`}>
+    <section className="night relative flex items-center overflow-hidden border-t border-white/10 md:sticky md:top-[var(--header-h)] md:min-h-[calc(100svh-var(--header-h))]" aria-labelledby={`act-${k}`}>
       <ContourLines seed={index * 4 + 2} count={12} />
-      <div className="shell relative grid items-center gap-8 py-10 md:grid-cols-2">
-        <PhotoSlot slot={chapter.photo} label={c("photo.slot", { slot: chapter.photo })} alt={c("photo.placeholderAlt")} className="aspect-[4/5] max-h-[52svh] w-full rounded-3xl md:max-h-[70svh]" sizes="(min-width: 768px) 50vw, 100vw" />
+      <div className="shell relative grid items-center gap-6 py-10 md:grid-cols-2 md:gap-8">
+        <PhotoSlot slot={chapter.photo} label={c("photo.slot", { slot: chapter.photo })} alt={c("photo.placeholderAlt")} className="aspect-[3/2] max-h-[32svh] w-full rounded-3xl md:aspect-[4/5] md:max-h-[70svh]" sizes="(min-width: 768px) 50vw, 100vw" />
         <div>
           <div className="flex items-center gap-4">
             <HatTrick filled={finale ? 2 : index + 1} tone="night" label="" />

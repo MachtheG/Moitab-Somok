@@ -23,7 +23,7 @@ export default async function ElectionsPage({ params }: Props) {
         <p className="kicker">{t("hero.kicker")}</p>
         <h1 className="display-xl mt-3">{t("hero.title")}</h1>
         <div className="mt-10"><SplitFlap /></div>
-        <p className="mt-4 text-sm text-black/75">{t("dateNote")}</p>
+        <p className="mt-4 text-[15px] text-black/80">{t("dateNote")}</p>
         <SourceBadge ids={["iebc-election-date"]} className="mt-2" />
       </section>
       <KeyDates />

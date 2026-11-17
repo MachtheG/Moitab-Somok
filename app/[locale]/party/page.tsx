@@ -18,15 +18,15 @@ export default async function PartyPage({ params }: Props) {
   const t = await getTranslations("party");
   return (
     <>
-      <section className="relative overflow-hidden bg-uda-500 text-black">
-        <ContourLines tone="day" seed={9} />
+      <section className="night relative overflow-hidden">
+        <ContourLines seed={9} />
         <div className="shell relative grid items-end gap-8 py-14 md:grid-cols-[1.4fr_1fr]">
           <div>
-            <p className="font-mono text-xs uppercase tracking-widest">{t("hero.kicker")}</p>
-            <h1 className="display-xl mt-3">{t("hero.title")}</h1>
-            <p className="lede mt-4 max-w-xl">{t("hero.body")}</p>
+            <p className="kicker !text-white/80">{t("hero.kicker")}</p>
+            <h1 className="display-xl mt-3 text-uda-500">{t("hero.title")}</h1>
+            <p className="lede mt-4 max-w-xl text-white/90">{t("hero.body")}</p>
           </div>
-          <PhotoSlot slot="party" tone="day" label={t("photo")} alt={t("photo")} className="aspect-video rounded-3xl" sizes="(min-width: 768px) 33vw, 100vw" />
+          <PhotoSlot slot="party" label={t("photo")} alt={t("photo")} className="aspect-video rounded-3xl" sizes="(min-width: 768px) 33vw, 100vw" />
         </div>
       </section>
       <PartyHistory />

@@ -16,7 +16,7 @@ export function MenuSheet({ variant = "header" }: { variant?: "header" | "bar" }
   return (
     <Dialog.Root open={open} onOpenChange={setOpen}>
       <Dialog.Trigger
-        className={variant === "bar" ? "flex min-h-14 flex-1 flex-col items-center justify-center gap-0.5 text-[11px]" : "tap justify-center rounded-full border border-black/15 px-3 text-sm"}
+        className={variant === "bar" ? "flex min-h-14 flex-1 flex-col items-center justify-center gap-0.5 text-xs font-medium text-black/80" : "tap justify-center rounded-full border border-black/15 px-3 text-sm"}
         aria-label={t("nav.more")}
       >
         <Menu size={variant === "bar" ? 20 : 18} aria-hidden />

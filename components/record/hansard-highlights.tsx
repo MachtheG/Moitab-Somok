@@ -14,7 +14,7 @@ export async function HansardHighlights() {
     ["divisions", `${floorActivity.divisionsVoted}/${floorActivity.divisionsRecorded}`],
   ] as const;
   return (
-    <section className="bg-onyx-900 py-14">
+    <section id="hansard" className="scroll-mt-32 bg-onyx-900 py-14">
       <div className="shell grid gap-10 lg:grid-cols-[1.4fr_1fr]">
         <div>
           <SectionHeading kicker={t("hansardKicker")} title={t("hansard.title")} filled={2} />

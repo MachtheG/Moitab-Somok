@@ -13,7 +13,7 @@ export async function KeyDates() {
             <li key={r.key} className={`rounded-2xl p-5 ${r.key === "electionDay" ? "bg-black text-white" : "bg-white"}`} data-reveal>
               <p className="font-mono text-sm">{r.date}</p>
               <p className="mt-2 font-display text-xl font-bold">{t(`milestones.${r.key}`)}</p>
-              {!r.confirmed && <p className="mt-2 text-xs text-black/70">{t("milestones.unconfirmed")}</p>}
+              {!r.confirmed && <p className="mt-2 text-sm text-black/75">{t("milestones.unconfirmed")}</p>}
             </li>
           ))}
         </ol>

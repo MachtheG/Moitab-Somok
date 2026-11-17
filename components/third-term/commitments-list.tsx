@@ -13,7 +13,7 @@ export async function CommitmentsList() {
         <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {commitments.map((c) => (
             <li key={c.key} className="flex flex-col gap-3 rounded-2xl border-2 border-dashed border-uda-700 bg-white p-6" data-reveal>
-              <span className="w-fit rounded-full bg-uda-100 px-2 py-1 font-mono text-[10px] uppercase tracking-widest text-uda-900">{t("draftBadge")}</span>
+              <span className="w-fit rounded-full bg-uda-100 px-2 py-1 font-mono text-xs font-semibold uppercase tracking-widest text-uda-900">{t("draftBadge")}</span>
               <h3 className="font-display text-xl font-bold">{t(`${c.key}.title`)}</h3>
               <p className="text-black/75">{t(`${c.key}.body`)}</p>
               <SourceBadge ids={c.basis as readonly SourceId[]} className="mt-auto pt-2" />

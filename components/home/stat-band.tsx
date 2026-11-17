@@ -17,7 +17,7 @@ export async function StatBand() {
           <SectionHeading kicker={t("kicker")} title={t("title")} />
           <Link href="/record" className="tap font-semibold underline underline-offset-4">{t("seeAll")}</Link>
         </div>
-        <div className="no-scrollbar -mx-4 mt-8 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-2 md:mx-0 md:grid md:grid-cols-3 md:overflow-visible md:px-0">
+        <div className="no-scrollbar relative -mx-4 mt-8 flex snap-x snap-mandatory gap-4 overflow-x-auto px-4 pb-2 md:mx-0 md:grid md:grid-cols-3 md:overflow-visible md:px-0">
           {picks.map((s) => <StatCard key={s.id} stat={s} className="w-[82%] shrink-0 snap-center md:w-auto" />)}
         </div>
       </div>

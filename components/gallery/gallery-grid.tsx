@@ -18,7 +18,7 @@ export function GalleryGrid({ photos }: { photos: Photo[] }) {
   const present = new Set(photos.map((p) => p.category));
   return (
     <div>
-      <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4" role="toolbar" aria-label={t("filters.all")}>
+      <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4 [mask-image:linear-gradient(to_right,#000_85%,transparent)] md:[mask-image:none]" role="toolbar" aria-label={t("filters.all")}>
         {CATS.filter((c) => c === "all" || present.has(c)).map((c) => (
           <button key={c} type="button" onClick={() => setCat(c)} aria-pressed={cat === c} className={cn("tap shrink-0 rounded-full border px-4 text-sm", cat === c ? "border-black bg-black text-white" : "border-black/25")}>{t(`filters.${c}`)}</button>
         ))}

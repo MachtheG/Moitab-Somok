@@ -35,7 +35,7 @@ export async function WardDetail({ slug }: { slug: string }) {
         {entries.length ? (
           <ul className="mt-6 divide-y divide-black/10 border-y border-black/10">
             {entries.map((p) => (
-              <li key={p.id}><Link href={`/record/${p.id}`} className="flex min-h-14 items-center justify-between gap-4 py-2 hover:bg-onyx-900"><span><span className="block font-semibold">{p.name}</span><span className="font-mono text-xs text-black/70">{p.fy} · {r(`sectors.${p.sector}`)}</span></span><span className="font-mono text-sm">{formatKsh(p.amount, locale)}</span></Link></li>
+              <li key={p.id}><Link href={`/record/${p.id}`} className="flex min-h-14 items-center justify-between gap-4 py-2 hover:bg-onyx-900"><span><span className="block font-semibold">{p.name}</span><span className="font-mono text-xs text-black/70">{p.fy} · {r(`sectors.${p.sector}`)}</span></span><span className="shrink-0 whitespace-nowrap font-mono text-sm tabular-nums">{formatKsh(p.amount, locale)}</span></Link></li>
             ))}
           </ul>
         ) : <p className="mt-4">{t("none")}</p>}

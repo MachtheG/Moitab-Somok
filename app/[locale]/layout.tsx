@@ -49,7 +49,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
         {/* Apply Lite mode before first paint, keeping pages static. */}
         <script dangerouslySetInnerHTML={{ __html: `if(document.cookie.indexOf("lite=1")>-1)document.documentElement.classList.add("lite")` }} />
       </head>
-      <body className="min-h-dvh bg-white font-sans text-black antialiased">
+      <body className="min-h-dvh overflow-x-clip bg-white font-sans text-black antialiased">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd(SITE_URL)) }} />
         <NextIntlClientProvider>
           <SiteHeader />

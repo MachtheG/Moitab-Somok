@@ -180,5 +180,15 @@
     "motions": "Motions moved",
     "papers": "Papers laid",
     "divisions": "Recorded divisions voted in"
+  },
+  "jump": {
+    "label": "On this page",
+    "numbers": "Numbers",
+    "byYear": "By year",
+    "flow": "Flow",
+    "projects": "Projects",
+    "timeline": "Timeline",
+    "committees": "Committees",
+    "hansard": "Hansard"
   }
 }

@@ -34,7 +34,7 @@ export function ProjectExplorer({ rows, years, sectors }: { rows: ProjectRow[]; 
     [rows, fy, sector, q],
   );
   const sum = filtered.reduce((s, r) => s + r.amount, 0);
-  const select = "min-h-11 rounded-lg border border-black/25 bg-white px-3 text-sm";
+  const select = "min-h-12 rounded-lg border border-black/25 bg-white px-3 text-base";
 
   return (
     <div>
@@ -52,7 +52,7 @@ export function ProjectExplorer({ rows, years, sectors }: { rows: ProjectRow[]; 
           </select>
         </label>
         <label className="grid gap-1 text-sm font-semibold">{t("explorer.search")}
-          <input type="search" defaultValue={q} onChange={(e) => set("q", e.target.value)} className={select} />
+          <input type="search" enterKeyHint="search" defaultValue={q} onChange={(e) => set("q", e.target.value)} className={select} />
         </label>
       </div>
       <p className="mt-4 font-mono text-sm" aria-live="polite">{t("filters.results", { count: filtered.length, amount: formatKsh(sum, locale) })}</p>
@@ -67,7 +67,7 @@ export function ProjectExplorer({ rows, years, sectors }: { rows: ProjectRow[]; 
                   <span className="block font-semibold leading-snug">{r.name}</span>
                   <span className="font-mono text-xs text-black/70">{r.fy} · {t(`sectors.${r.sector}`)}</span>
                 </span>
-                <span className="font-mono text-sm">{formatKsh(r.amount, locale)}</span>
+                <span className="shrink-0 whitespace-nowrap font-mono text-sm tabular-nums">{formatKsh(r.amount, locale)}</span>
               </Link>
             </li>
           ))}

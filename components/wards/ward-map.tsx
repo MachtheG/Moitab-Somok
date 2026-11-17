@@ -16,6 +16,14 @@ const SHAPES: Record<string, { d: string; lx: number; ly: number }> = {
 export function WardMap({ wards }: { wards: WardView[] }) {
   const t = useTranslations("wards");
   const [active, setActive] = useState(wards[0]!.slug);
+  const choose = (slug: string) => {
+    setActive(slug);
+    // On phones the panel sits below the map: bring it into view so the tap visibly does something.
+    if (matchMedia("(max-width: 1023px)").matches) {
+      const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      requestAnimationFrame(() => document.getElementById("ward-panel")?.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" }));
+    }
+  };
   const current = wards.find((w) => w.slug === active)!;
   return (
     <div className="grid gap-8 lg:grid-cols-[1.1fr_1fr]">
@@ -32,15 +40,16 @@ export function WardMap({ wards }: { wards: WardView[] }) {
                   tabIndex={0}
                   aria-pressed={on}
                   aria-label={t("open", { name: w.name })}
-                  onClick={() => setActive(w.slug)}
-                  onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setActive(w.slug); } }}
+                  onClick={() => choose(w.slug)}
+                  onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); choose(w.slug); } }}
                   fill={w.color}
                   stroke="#000000"
-                  strokeWidth={on ? 5 : 2}
+                  strokeWidth={2}
                   strokeLinejoin="round"
-                  className="cursor-pointer outline-none focus-visible:[stroke-width:6]"
+                  className="cursor-pointer outline-none focus-visible:[stroke:#FFC700] focus-visible:[stroke-width:5]"
                 />
-                <text x={s.lx} y={s.ly} textAnchor="middle" className="pointer-events-none font-display text-[17px] font-bold" fill={w.slug === "kipkelion" ? "#000000" : "#FFFFFF"} stroke={w.slug === "kipkelion" ? "none" : "#000000"} strokeWidth="0.6">{w.name}</text>
+                {on && <path d={s.d} fill="none" stroke="#FFC700" strokeWidth={5} strokeLinejoin="round" className="pointer-events-none" />}
+                <text x={s.lx} y={s.ly} textAnchor="middle" className="pointer-events-none font-display text-[24px] font-bold" fill={w.slug === "kipkelion" ? "#000000" : "#FFFFFF"} stroke={w.slug === "kipkelion" ? "#FFFFFF" : "#000000"} strokeWidth={4} strokeLinejoin="round" paintOrder="stroke">{w.name}</text>
               </g>
             );
           })}
@@ -48,7 +57,7 @@ export function WardMap({ wards }: { wards: WardView[] }) {
         <figcaption className="mt-2 font-mono text-xs text-black/70">{t("schematic")}</figcaption>
         <div className="mt-4 flex flex-wrap gap-2 lg:hidden">
           {wards.map((w) => (
-            <button key={w.slug} type="button" onClick={() => setActive(w.slug)} aria-pressed={w.slug === active} className={cn("tap rounded-full border px-4 text-sm font-semibold", w.slug === active ? "border-black bg-black text-white" : "border-black/25")}>{w.name}</button>
+            <button key={w.slug} type="button" onClick={() => choose(w.slug)} aria-pressed={w.slug === active} className={cn("tap rounded-full border px-4 text-sm font-semibold", w.slug === active ? "border-black bg-black text-white" : "border-black/25")}>{w.name}</button>
           ))}
         </div>
       </figure>

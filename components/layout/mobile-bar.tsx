@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import { BookOpenCheck, Home, MapPinned, Sparkles } from "lucide-react";
+import { BookOpenCheck, HandHeart, Home, Sparkles } from "lucide-react";
 import { MenuSheet } from "./menu-sheet";
 import { NavLink } from "./nav-link";
 
@@ -7,7 +7,7 @@ const ITEMS = [
   { key: "home", href: "/", Icon: Home },
   { key: "record", href: "/record", Icon: BookOpenCheck },
   { key: "thirdTerm", href: "/third-term", Icon: Sparkles },
-  { key: "wards", href: "/wards", Icon: MapPinned },
+  { key: "getInvolved", href: "/get-involved", Icon: HandHeart },
 ] as const;
 
 /** Thumb-reachable bottom navigation on phones. */
@@ -18,7 +18,7 @@ export function MobileBar() {
       <ul className="flex">
         {ITEMS.map(({ key, href, Icon }) => (
           <li key={key} className="flex flex-1">
-            <NavLink href={href} className="flex min-h-14 flex-1 flex-col items-center justify-center gap-0.5 text-[11px] text-black/70" activeClassName="font-semibold text-black [&>svg]:text-forest-600">
+            <NavLink href={href} className="flex min-h-14 flex-1 flex-col items-center justify-center gap-0.5 text-center text-xs font-medium leading-tight text-black/80" activeClassName="font-semibold text-black [&>svg]:text-forest-600">
               <Icon size={20} aria-hidden />
               {t(key)}
             </NavLink>

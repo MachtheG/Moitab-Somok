@@ -180,5 +180,15 @@
     "motions": "Hoja alizowasilisha",
     "papers": "Nyaraka alizowasilisha",
     "divisions": "Kura zilizorekodiwa alizopiga"
+  },
+  "jump": {
+    "label": "Kwenye ukurasa huu",
+    "numbers": "Takwimu",
+    "byYear": "Kwa mwaka",
+    "flow": "Mtiririko",
+    "projects": "Miradi",
+    "timeline": "Mfuatano",
+    "committees": "Kamati",
+    "hansard": "Hansard"
   }
 }

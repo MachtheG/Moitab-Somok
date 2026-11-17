@@ -19,16 +19,16 @@ export async function NumeralHero() {
       <ContourLines />
       <div className="shell relative grid items-center gap-4 py-8 md:min-h-[calc(100svh-var(--header-h))] md:grid-cols-[1.1fr_1fr] md:gap-6 md:py-10">
         <div className="relative z-10 order-2 md:order-1">
-          <p className="kicker">{t("kicker")}</p>
+          <p className="kicker !text-white/80">{t("kicker")}</p>
           <h1 className="display-xl mt-4 text-white">{t("headline")}</h1>
-          <p className="mt-3 font-display text-2xl font-bold text-uda-500 sm:text-3xl">{c("slogan")}</p>
+          <p className="mt-3 font-display text-2xl font-bold text-white/90 sm:text-3xl">{c("slogan")}</p>
           <p className="lede mt-5 max-w-xl text-white/85">{t("subhead")}</p>
-          <div className="mt-8 flex flex-wrap gap-3">
+          <div className="mt-6 flex flex-wrap gap-3">
             <Button asChild size="lg"><Link href="/get-involved">{t("ctaPrimary")}</Link></Button>
             <Button asChild size="lg" variant="outline" className="border-white/40 text-white hover:border-uda-500 hover:bg-white/10"><Link href="/record">{t("ctaSecondary")}</Link></Button>
           </div>
         </div>
-        <div className="numeral-open relative order-1 mx-auto w-[min(52vw,30rem)] md:order-2 md:w-[min(40vw,30rem)]">
+        <div className="numeral-open relative order-1 mx-auto w-[min(40vw,30rem)] md:order-2 [@media(max-height:780px)]:w-[min(32vw,30rem)] md:[@media(max-height:780px)]:w-[min(34vw,30rem)]">
           <svg viewBox="0 0 400 520" className="h-auto w-full" role="img" aria-label={portrait ? portrait.alt[locale] : c("photo.slot", { slot: "hero-portrait" })}>
             <defs>
               <clipPath id="three"><text x="200" y="455" textAnchor="middle" fontSize="560" fontWeight="800" style={{ fontFamily: "var(--font-display)" }}>3</text></clipPath>

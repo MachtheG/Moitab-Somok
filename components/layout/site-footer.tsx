@@ -38,12 +38,12 @@ export function SiteFooter() {
                 return <li key={id}><a href={s.url} target="_blank" rel="noopener noreferrer me" className="tap hover:text-uda-500">{s.outlet}: {s.title}</a></li>;
               })}
             </ul>
-            <p className="mt-1 text-xs text-white/70">{t("footer.channelsNote")}</p>
+            <p className="mt-1 text-sm text-white/80">{t("footer.channelsNote")}</p>
           </div>
           <LiteToggle />
         </div>
       </div>
-      <div className="shell relative border-t border-white/15 py-5 text-xs text-white/75">{rich(t("footer.paidFor"))}</div>
+      <div className="shell relative border-t border-white/15 py-5 text-sm text-white/85">{rich(t("footer.paidFor"))}</div>
     </footer>
   );
 }

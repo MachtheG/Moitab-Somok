@@ -8,7 +8,7 @@ export async function RecordTimeline() {
   const t = await getTranslations("record");
   const items = [...timeline].sort((a, b) => a.date.localeCompare(b.date));
   return (
-    <section className="night relative py-14">
+    <section id="timeline" className="night relative scroll-mt-32 py-14">
       <div className="shell">
         <SectionHeading kicker={t("timelineKicker")} title={t("timeline.title")} tone="night" filled={2} />
         <ol className="relative mt-10 border-l-2 border-white/25 pl-6 sm:ml-4">

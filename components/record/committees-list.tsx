@@ -6,7 +6,7 @@ import { committees } from "@/data/record/committees";
 export async function CommitteesList() {
   const t = await getTranslations("record");
   return (
-    <section className="shell py-14">
+    <section id="committees" className="shell scroll-mt-32 py-14">
       <SectionHeading kicker={t("committeesKicker")} title={t("committees.title")} filled={2} />
       <ul className="mt-8 grid gap-4 sm:grid-cols-2">
         {committees.map((c) => (
