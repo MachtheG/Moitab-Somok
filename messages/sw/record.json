@@ -34,7 +34,7 @@
       "detail": "KSh milioni 138.2 hadi KSh milioni 183.0"
     },
     "projectLines": {
-      "label": "Miradi ya NG-CDF iliyoidhinishwa",
+      "label": "Miradi ya NG-CDF katika orodha zilizochapishwa",
       "detail": "Orodha za miradi zilizochapishwa za 2020/21, 2022/23 na 2023/24"
     },
     "educationLines": {
@@ -42,11 +42,11 @@
       "detail": "Shule za msingi, sekondari ya chini na sekondari"
     },
     "educationKsh": {
-      "label": "Iliyoidhinishwa kwa miundombinu ya shule",
+      "label": "Iliyotengwa kwa miundombinu ya shule",
       "detail": "Orodha hizo tatu"
     },
     "bursariesKsh": {
-      "label": "Iliyoidhinishwa kwa basari",
+      "label": "Iliyotengwa kwa basari",
       "detail": "Orodha hizo tatu"
     },
     "divisions": {
@@ -77,11 +77,11 @@
   },
   "sankey": {
     "title": "Pesa zilienda wapi",
-    "body": "Miradi ya NG-CDF iliyoidhinishwa kwa Kipkelion Magharibi, kwa sekta. Gusa ukanda kuona miradi.",
+    "body": "Orodha za miradi ya NG-CDF za Kipkelion Magharibi, kwa sekta. Gusa sekta kuona miradi yake.",
     "wardsPending": "Mgawanyo kwa wadi utakuja baada ya data ya shule kwa wadi kuthibitishwa.",
     "inferred": "Sekta imekisiwa kutokana na jina la mradi",
     "kicker": "03 · Mtiririko",
-    "total": "Iliyoidhinishwa katika orodha zilizochapishwa",
+    "total": "Iliyotengwa katika orodha zilizochapishwa",
     "years": "Orodha za 2020/21, 2022/23 na 2023/24",
     "tap": "Ona miradi hii"
   },
@@ -118,7 +118,7 @@
     "tea": "Aliibua malipo kwa wakulima katika maeneo yanayokuza chai.",
     "dams": "Alichangia kuhusu mabwawa na Wizara ya Maji na Unyunyiziaji.",
     "socialWork": "Aliwasilisha marekebisho ya Mswada wa kazi za ustawi wa jamii katika hatua ya kamati.",
-    "fertiliser": "Aliibua suala la mbolea na bajeti ya mbolea kwa wakulima.",
+    "fertiliser": "Alizungumzia suala la dharura la mbolea kwa wakulima, lililoibuliwa na Mhe. Keter.",
     "settlement": "Aliripoti kuhusu ziara ya mpango wa makazi kama mwanachama wa kamati ya Mazingira.",
     "quotePending": "Nukuu rasmi ya Hansard inakuja"
   },
@@ -129,8 +129,8 @@
     "ngcdf2017": "Orodha ya NG-CDF 2017/18: KSh milioni 92.99 katika miradi 107 (mwaka ulianza kabla ya uchaguzi)",
     "settlementVisit": "Aripoti Bungeni kuhusu ziara ya mpango wa makazi",
     "regionalIntegration": "Ahamia Kamati ya Mtangamano wa Kikanda",
-    "ngcdf2020": "Orodha ya NG-CDF 2020/21: miradi 102 imeidhinishwa",
-    "fertiliser2022": "Aibua suala la mbolea kwa wakulima Bungeni",
+    "ngcdf2020": "Orodha ya NG-CDF 2020/21: miradi 102 imetengewa fedha",
+    "fertiliser2022": "Azungumzia mbolea kwa wakulima Bungeni",
     "reelected2022": "Achaguliwa tena kwa kura 26,222 (UDA)",
     "ngcdf2022": "Mgao wa NG-CDF 2022/23: KSh milioni 138.2 zimeidhinishwa",
     "ngcdf2023": "Mgao wa NG-CDF 2023/24: KSh milioni 166.6 zimeidhinishwa",
@@ -145,11 +145,11 @@
     "results": "Miradi {count} · {amount}"
   },
   "detail": {
-    "approved": "Iliyoidhinishwa",
+    "approved": "Iliyotengwa",
     "status": "Hali katika orodha",
     "fy": "Mwaka wa fedha",
     "sourcePdf": "Hati ya chanzo (PDF)",
-    "neutral": "Imeidhinishwa na Kamati ya NG-CDF ya Kipkelion Magharibi chini ya Sheria ya NG-CDF.",
+    "neutral": "Imeorodheshwa katika orodha ya miradi ya Bodi ya NG-CDF kwa Kipkelion Magharibi. Miradi hupendekezwa na kamati ya eneo bunge chini ya Sheria ya NG-CDF.",
     "back": "Miradi yote",
     "sector": "Sekta",
     "list": "Orodha {list}, kipengele {sn}",
@@ -163,7 +163,7 @@
   "statsKicker": "01 · Kwa takwimu",
   "explorer": {
     "kicker": "04 · Kila mradi",
-    "title": "Miradi yote iliyoidhinishwa",
+    "title": "Kila mradi uliochapishwa",
     "search": "Tafuta miradi",
     "noResults": "Hakuna miradi inayolingana na vichujio hivi.",
     "showMore": "Onyesha zaidi",

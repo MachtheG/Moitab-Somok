@@ -7,10 +7,9 @@ export const election = {
   weekday: "Tuesday",
   label: "10.08.2027",
   sourceId: "iebc-election-date" satisfies SourceId,
-  note: "IEBC is proceeding with 10 Aug 2027. A High Court judgment questioning the date was suspended until the 2027 election.",
-  /** Key IEBC timelines, reported in news coverage (not yet checked against the gazette). */
+  /** Key IEBC timelines as reported by The Standard (not yet checked against the gazette). */
   milestones: [
-    { key: "primaries", date: "2027-05-08", confirmed: false },
+    { key: "primaries", date: "2027-05-09", confirmed: false },
     { key: "campaignStart", date: "2027-05-29", confirmed: false },
     { key: "campaignEnd", date: "2027-08-07", confirmed: false },
   ],

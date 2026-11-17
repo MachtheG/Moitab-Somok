@@ -72,6 +72,18 @@ function split(line: string, cols: Cols) {
   };
 }
 
+/**
+ * When a name and its activity are separated by a single space on the row's
+ * first line, the column cut can push the end of a school name ("Secondary")
+ * into the activity. Move those words back before continuation lines append.
+ */
+const NAME_TAIL = /^((?:Primary|Secondary|Girls|Boys|Mixed|Day|School|Sch\.?)(?:\s+|$))+/;
+function fixFirstLine<T extends { name: string; activity: string }>(s: T): T {
+  const m = s.activity.match(NAME_TAIL);
+  if (!m) return s;
+  return { ...s, name: `${s.name} ${m[0].trim()}`, activity: s.activity.slice(m[0].length).trim() };
+}
+
 export function parseLines(lines: string[]) {
   const rows: RawRow[] = [];
   const docTotals: number[] = [];
@@ -107,7 +119,7 @@ export function parseLines(lines: string[]) {
       const sn = Number(start[1]);
       if (sn <= lastSn && sn === 1) list++;
       lastSn = sn;
-      const s = split(line, cols);
+      const s = fixFirstLine(split(line, cols));
       cur = {
         list, sn, code: s.code, name: s.name, activity: s.activity,
         amount: s.amount ?? 0, status: s.status,

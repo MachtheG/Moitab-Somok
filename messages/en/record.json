@@ -34,7 +34,7 @@
       "detail": "KSh 138.2M to KSh 183.0M"
     },
     "projectLines": {
-      "label": "NG-CDF project lines approved",
+      "label": "NG-CDF project lines in the published lists",
       "detail": "FY2020/21, 2022/23 and 2023/24 published code lists"
     },
     "educationLines": {
@@ -42,11 +42,11 @@
       "detail": "Primary, junior secondary and secondary"
     },
     "educationKsh": {
-      "label": "Approved for school infrastructure",
+      "label": "Allocated to school infrastructure",
       "detail": "Same three code lists"
     },
     "bursariesKsh": {
-      "label": "Approved for bursaries",
+      "label": "Allocated to bursaries",
       "detail": "Same three code lists"
     },
     "divisions": {
@@ -77,11 +77,11 @@
   },
   "sankey": {
     "title": "Where the money went",
-    "body": "NG-CDF projects approved for Kipkelion West, by sector. Tap a band to see the projects.",
+    "body": "NG-CDF project lists for Kipkelion West, by sector. Tap a sector to see its projects.",
     "wardsPending": "The ward breakdown is coming once school-to-ward data is confirmed.",
     "inferred": "Sector inferred from the project name",
     "kicker": "03 · The flow",
-    "total": "Approved in the published lists",
+    "total": "Allocated in the published lists",
     "years": "FY2020/21, 2022/23 and 2023/24 code lists",
     "tap": "See these projects"
   },
@@ -118,7 +118,7 @@
     "tea": "Raised payments to farmers in tea-growing areas.",
     "dams": "Contributed on dams and the Ministry of Water and Irrigation.",
     "socialWork": "Moved amendments to the social work Bill at committee stage.",
-    "fertiliser": "Raised fertiliser inputs and the fertiliser budget for farmers.",
+    "fertiliser": "Spoke on an urgent matter on fertiliser for farmers, raised by Hon. Keter.",
     "settlement": "Reported on a settlement-scheme visit as a member of the Environment committee.",
     "quotePending": "Certified Hansard quote to follow"
   },
@@ -129,8 +129,8 @@
     "ngcdf2017": "FY2017/18 NG-CDF project list: KSh 92.99M across 107 lines (year began before the election)",
     "settlementVisit": "Reports to the House on a settlement-scheme visit",
     "regionalIntegration": "Moves to the Regional Integration Committee",
-    "ngcdf2020": "FY2020/21 NG-CDF project list: 102 lines approved",
-    "fertiliser2022": "Raises fertiliser inputs for farmers in the House",
+    "ngcdf2020": "FY2020/21 NG-CDF project list: 102 lines allocated",
+    "fertiliser2022": "Speaks on fertiliser for farmers in the House",
     "reelected2022": "Re-elected with 26,222 votes (UDA)",
     "ngcdf2022": "FY2022/23 NG-CDF allocation: KSh 138.2M approved",
     "ngcdf2023": "FY2023/24 NG-CDF allocation: KSh 166.6M approved",
@@ -145,11 +145,11 @@
     "results": "{count} projects · {amount}"
   },
   "detail": {
-    "approved": "Approved",
+    "approved": "Allocated",
     "status": "Status in the code list",
     "fy": "Financial year",
     "sourcePdf": "Source document (PDF)",
-    "neutral": "Approved by the Kipkelion West NG-CDF Committee under the NG-CDF Act.",
+    "neutral": "Listed in an NG-CDF Board project list for Kipkelion West. Projects are proposed by the constituency committee under the NG-CDF Act.",
     "back": "All projects",
     "sector": "Sector",
     "list": "List {list}, item {sn}",
@@ -163,7 +163,7 @@
   "statsKicker": "01 · In numbers",
   "explorer": {
     "kicker": "04 · Every project",
-    "title": "All approved project lines",
+    "title": "Every published project line",
     "search": "Search projects",
     "noResults": "No projects match these filters.",
     "showMore": "Show more",

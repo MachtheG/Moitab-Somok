@@ -24,6 +24,7 @@ const OUT = path.join(ROOT, "data/record/ngcdf-projects.ts");
 
 const tidy = (s: string) => s.replace(/\s+/g, " ").trim();
 
+
 type Doc = { fy: string; rows: RawRow[]; docTotals: number[] };
 
 function read(file: string): Doc {
@@ -43,18 +44,20 @@ function main() {
   const projects = docs.flatMap((d) =>
     d.rows.map((r, i) => {
       const heading = r.heading ? normaliseHeading(r.heading) : null;
-      const text = `${r.name} ${r.activity}`;
+      const name = tidy(r.name);
+      const activity = tidy(r.activity);
+      const text = `${name} ${activity}`;
       return {
         id: `${d.fy.replace("/", "-")}-${String(i + 1).padStart(3, "0")}`,
         fy: d.fy,
         list: r.list,
         sn: r.sn,
         code: r.code || undefined,
-        name: tidy(r.name),
-        activity: tidy(r.activity),
+        name,
+        activity,
         amount: r.amount,
         status: r.status,
-        sector: heading ?? inferSector(r.name, r.activity),
+        sector: heading ?? inferSector(name, activity),
         sectorSource: heading ? ("heading" as const) : ("inferred" as const),
         ward: findWard(text),
         sourceId: `ngcdf-${d.fy.replace("/", "-")}`,

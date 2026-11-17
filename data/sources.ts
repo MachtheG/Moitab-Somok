@@ -73,8 +73,8 @@ export const sources = [
     date: "2022",
     accessed: "2026-11-17",
     url: "https://iebc.or.ke/uploads/resources/p3sivVm8LM.pdf",
-    verified: false,
-    note: "Cited by Mzalendo for 26,222 votes. Not yet opened directly. [[TO CONFIRM]]",
+    verified: true,
+    note: "Opened 2026-11-17: line 189 Kipkelion West, Kosgei Hilary Kiplangat, UDA, 26,222.",
   },
   {
     id: "iebc-register-2022",
@@ -83,8 +83,8 @@ export const sources = [
     date: "2022",
     accessed: "2026-11-17",
     url: "https://www.iebc.or.ke/docs/rov_per_constituency.pdf",
-    verified: false,
-    note: "Primary source behind Mzalendo's register figures. Not yet opened directly.",
+    verified: true,
+    note: "Opened 2026-11-17: 189 KIPKELION WEST 52,960.",
   },
   {
     id: "wikipedia-constituency",
@@ -104,7 +104,7 @@ export const sources = [
     accessed: "2026-11-17",
     url: "https://weeffect.org/stories/coffee-farms-give-kipkelion-women-financial-freedom/",
     verified: false,
-    note: "Wikipedia's citation for coffee as a main activity.",
+    note: "Covers coffee only (does not mention dairy). Dairy is sourced to Wikipedia.",
   },
   {
     id: "iebc-election-date",
@@ -113,8 +113,8 @@ export const sources = [
     date: null,
     accessed: "2026-11-17",
     url: "https://standardmedia.co.ke/business/national/article/2001551158/iebc-sets-august-10-2027-as-general-election-date",
-    verified: false,
-    note: "Corroborated by Capital FM, Citizen Digital, The Star (search results). Replace with the IEBC gazette notice URL once located. A Malindi High Court judgment on the date was suspended until the 2027 election; IEBC proceeding with 10 Aug 2027.",
+    verified: true,
+    note: "Opened 2026-11-17: Tuesday 10 Aug 2027; primaries by 9 May 2027; campaign 29 May–7 Aug 2027. Replace with the IEBC gazette notice URL once located.",
   },
   {
     id: "ngcdf-2017-18",
@@ -177,13 +177,13 @@ export const sources = [
   },
   {
     id: "official-facebook",
-    title: "Hon Hilary Nyiganet Arap Kosgei",
+    title: "Hon. Hilary Kosgei",
     outlet: "Facebook",
     date: null,
     accessed: "2026-11-17",
     url: "https://www.facebook.com/HonHilaryKosgei",
     verified: false,
-    note: "[[TO CONFIRM: official page, per campaign]]",
+    note: "[[TO CONFIRM: official page, per campaign]]. The page name includes a nickname that is not shown on the site until approved (D-017).",
   },
 ] as const satisfies readonly Source[];
 
