@@ -17,8 +17,10 @@ export default async function NewsPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
   const t = await getTranslations("news");
-  const shown = news.filter((n) => n.verified && (n.campaignApproval === "approved" || n.campaignApproval === "not-needed"));
-  const pending = news.length - shown.length;
+  const shown = news
+    .filter((n) => n.verified && (n.campaignApproval === "approved" || n.campaignApproval === "not-needed"))
+    .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
+  const pending = news.filter((n) => !n.verified || n.campaignApproval === "pending").length;
   return (
     <div className="shell py-14">
       <SectionHeading as="h1" kicker={t("hero.kicker")} title={t("hero.title")} lede={t("hero.body")} filled={2} />

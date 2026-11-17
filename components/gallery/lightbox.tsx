@@ -33,7 +33,10 @@ export function Lightbox({ photos, index, onClose, onIndex }: { photos: Photo[];
           <div className="relative flex-1"><Image src={p.src} alt={p.alt[locale]} fill sizes="100vw" className="object-contain" /></div>
           <div className="flex items-center justify-between gap-3 p-4">
             <button type="button" onClick={() => go(-1)} className="tap justify-center" aria-label={t("prev")}><ChevronLeft /></button>
-            <Dialog.Description className="text-center text-sm">{p.caption[locale]}{p.date && ` · ${p.date}`} · {t("credit", { credit: p.credit })}</Dialog.Description>
+            <Dialog.Description className="text-center text-sm">
+              {p.caption[locale]}{p.date && ` · ${p.date}`} · {t("credit", { credit: p.credit })}
+              {p.license && <> · <a href={p.license.source} target="_blank" rel="noopener noreferrer" className="underline">{t("license", { name: p.license.name })}</a>{p.license.changes && ` (${p.license.changes})`}</>}
+            </Dialog.Description>
             <button type="button" onClick={() => go(1)} className="tap justify-center" aria-label={t("next")}><ChevronRight /></button>
           </div>
         </Dialog.Content>

@@ -51,5 +51,9 @@
     "title": "Kuwa sehemu ya wa tatu",
     "body": "Ahidi kura yako, jitolee katika wadi yako, au tuambie muhula ujao unapaswa kuleta nini.",
     "cta": "Jiunge"
+  },
+  "land": {
+    "caption": "Nyanda za juu za Kericho: chai, kahawa, maziwa na vilima.",
+    "credit": "Picha: {credit} · {license}"
   }
 }

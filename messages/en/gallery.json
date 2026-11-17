@@ -15,15 +15,18 @@
     "parliament": "Parliament",
     "projects": "Projects",
     "campaign": "Campaign",
-    "family": "Family"
+    "family": "Family",
+    "landscape": "Our land"
   },
   "empty": "Photos are on their way from the campaign team.",
   "lightbox": {
     "close": "Close",
     "next": "Next photo",
     "prev": "Previous photo",
-    "credit": "Photo: {credit}"
+    "credit": "Photo: {credit}",
+    "license": "{name}, via Wikimedia Commons"
   },
   "slotsTitle": "Shots we are waiting for",
-  "slotsBody": "Every frame below is a placeholder for a real, dated campaign photograph."
+  "slotsBody": "Every frame below is a placeholder for a real, dated campaign photograph.",
+  "landNote": "Landscape photos are openly licensed images of the Kericho highlands, credited to their photographers. Photos of Hon. Kosgei will come only from the campaign."
 }

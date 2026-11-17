@@ -15,15 +15,18 @@
     "parliament": "Bunge",
     "projects": "Miradi",
     "campaign": "Kampeni",
-    "family": "Familia"
+    "family": "Familia",
+    "landscape": "Ardhi yetu"
   },
   "empty": "Picha zinakuja kutoka kwa timu ya kampeni.",
   "lightbox": {
     "close": "Funga",
     "next": "Picha inayofuata",
     "prev": "Picha iliyotangulia",
-    "credit": "Picha: {credit}"
+    "credit": "Picha: {credit}",
+    "license": "{name}, kupitia Wikimedia Commons"
   },
   "slotsTitle": "Picha tunazosubiri",
-  "slotsBody": "Kila fremu hapa chini ni nafasi ya picha halisi ya kampeni yenye tarehe."
+  "slotsBody": "Kila fremu hapa chini ni nafasi ya picha halisi ya kampeni yenye tarehe.",
+  "landNote": "Picha za mandhari ni picha zenye leseni huria za nyanda za juu za Kericho, zikiwa na majina ya wapiga picha. Picha za Mhe. Kosgei zitatoka kwa kampeni pekee."
 }

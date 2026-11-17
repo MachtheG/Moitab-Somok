@@ -51,5 +51,9 @@
     "title": "Be part of the third",
     "body": "Pledge your vote, volunteer in your ward, or tell us what the next term must deliver.",
     "cta": "Get involved"
+  },
+  "land": {
+    "caption": "The Kericho highlands: tea, coffee, dairy and hills.",
+    "credit": "Photo: {credit} · {license}"
   }
 }
