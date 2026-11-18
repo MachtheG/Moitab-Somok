@@ -24,14 +24,14 @@ export function SiteHeader() {
           <Image src="/brand/kericho-coat-of-arms.png" alt={t("crest")} width={40} height={40} priority className="size-10 shrink-0 object-contain" />
           <span className="leading-none">
             <span className="block font-display text-base font-extrabold tracking-tight sm:text-lg"><span className="hidden sm:inline">Hilary </span>Kosgei</span>
-            <span className="hidden font-mono text-[10px] uppercase tracking-widest text-black/70 sm:block">{t("brand.sub")}</span>
+            <span className="hidden whitespace-nowrap font-mono text-[10px] uppercase tracking-widest text-black/70 sm:block">{t("brand.sub")}</span>
           </span>
         </Link>
-        <nav aria-label={t("nav.primary")} className="hidden lg:block">
+        <nav aria-label={t("nav.primary")} className="hidden xl:block">
           <ul className="flex items-center gap-1 text-sm">
             {DESKTOP.map((tab) => (
               <li key={tab.key}>
-                <NavLink href={tab.href} className="tap rounded-full px-3 hover:bg-black/[0.05]" activeClassName="bg-black text-white hover:bg-black">{t(`nav.${tab.key}`)}</NavLink>
+                <NavLink href={tab.href} className="tap whitespace-nowrap rounded-full px-3 hover:bg-black/[0.05]" activeClassName="bg-black text-white hover:bg-black">{t(`nav.${tab.key}`)}</NavLink>
               </li>
             ))}
           </ul>
@@ -39,7 +39,7 @@ export function SiteHeader() {
         <div className="flex items-center gap-1.5">
           <CountdownPill />
           <LocaleSwitch />
-          <NavLink href="/get-involved" className="tap hidden rounded-full bg-uda-500 px-4 text-sm font-semibold text-black hover:bg-uda-400 md:inline-flex">{t("nav.getInvolved")}</NavLink>
+          <NavLink href="/get-involved" className="tap hidden whitespace-nowrap rounded-full bg-uda-500 px-4 text-sm font-semibold text-black hover:bg-uda-400 md:inline-flex">{t("nav.getInvolved")}</NavLink>
           <span className="hidden sm:inline-flex"><MenuSheet /></span>
         </div>
       </div>

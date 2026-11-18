@@ -15,7 +15,7 @@ export function CountdownPill() {
     return () => clearInterval(id);
   }, []);
   return (
-    <a href="/api/election.ics" className="inline-flex min-h-11 items-center rounded-full bg-black px-3 font-mono text-xs text-white" aria-label={days === null ? t("electionDay") : t("pillLabel", { days })}>
+    <a href="/api/election.ics" className="inline-flex min-h-11 items-center whitespace-nowrap rounded-full bg-black px-3 font-mono text-xs text-white" aria-label={days === null ? t("electionDay") : t("pillLabel", { days })}>
       {days === null ? election.label : t("pill", { days })}
     </a>
   );
