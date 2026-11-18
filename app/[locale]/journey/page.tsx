@@ -19,7 +19,7 @@ export default async function JourneyPage({ params }: Props) {
   return (
     <>
       <section className="night">
-        <div className="shell grid items-end gap-8 py-14 md:grid-cols-[1.4fr_1fr]">
+        <div className="shell grid items-end gap-8 py-10 md:grid-cols-[1.4fr_1fr]">
           <div>
             <p className="kicker">{t("hero.kicker")}</p>
             <h1 className="display-lg mt-3">{t("hero.title")}</h1>

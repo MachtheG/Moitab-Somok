@@ -190,5 +190,16 @@
     "timeline": "Mfuatano",
     "committees": "Kamati",
     "hansard": "Hansard"
+  },
+  "tabs": {
+    "label": "Sehemu za rekodi",
+    "numbers": "Takwimu",
+    "money": "Fedha",
+    "timeline": "Mfuatano",
+    "parliament": "Bungeni",
+    "moneyJump": "Ruka hadi",
+    "byYear": "Kwa mwaka",
+    "flow": "Mtiririko",
+    "projects": "Miradi"
   }
 }

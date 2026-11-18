@@ -190,5 +190,16 @@
     "timeline": "Timeline",
     "committees": "Committees",
     "hansard": "Hansard"
+  },
+  "tabs": {
+    "label": "Record sections",
+    "numbers": "Numbers",
+    "money": "Money",
+    "timeline": "Timeline",
+    "parliament": "In Parliament",
+    "moneyJump": "Jump to",
+    "byYear": "By year",
+    "flow": "Flow",
+    "projects": "Projects"
   }
 }

@@ -20,7 +20,7 @@ export default async function PartyPage({ params }: Props) {
     <>
       <section className="night relative overflow-hidden">
         <ContourLines seed={9} />
-        <div className="shell relative grid items-end gap-8 py-14 md:grid-cols-[1.4fr_1fr]">
+        <div className="shell relative grid items-end gap-8 py-10 md:grid-cols-[1.4fr_1fr]">
           <div>
             <p className="kicker !text-white/80">{t("hero.kicker")}</p>
             <h1 className="display-xl mt-3 text-uda-500">{t("hero.title")}</h1>

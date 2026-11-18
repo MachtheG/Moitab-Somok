@@ -184,6 +184,16 @@ export const sources = [
     verified: true,
   },
   {
+    id: "hdx-ward-boundaries",
+    title: "Kenya Elections: county, constituency and ward boundaries",
+    outlet: "Humanitarian Data Exchange (IEBC data)",
+    date: null,
+    accessed: "2026-11-18",
+    url: "https://data.humdata.org/dataset/kenya-elections",
+    verified: true,
+    note: "Ward polygons via github.com/tigawanna/kenya_wards_geojson_data (reprojected to WGS84). Local copy data/raw/geo/.",
+  },
+  {
     id: "official-x",
     title: "Hilary Kosgei (@KosgeiHon)",
     outlet: "X",

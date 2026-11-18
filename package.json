@@ -15,7 +15,8 @@
     "check:sources": "tsx scripts/check-sources.ts",
     "audit:colors": "tsx scripts/audit-colors.ts",
     "check": "npm run check:translations && npm run check:sources && npm run audit:colors && npm run typecheck && npm run lint && npm test",
-    "build:ds": "node design-system/build.mjs"
+    "build:ds": "node design-system/build.mjs",
+    "build:wardmap": "tsx scripts/build-ward-map.ts"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.4",

@@ -10,10 +10,10 @@ export async function AllocationChart() {
   const locale = await getLocale();
   const max = Math.max(...ngcdfAllocations.map((a) => a.amount));
   return (
-    <section id="by-year" className="scroll-mt-32 bg-onyx-900 py-14">
+    <section id="by-year" className="scroll-mt-32 bg-onyx-900 py-10">
       <div className="shell">
         <SectionHeading kicker={t("kicker")} title={t("title")} lede={t("caption")} filled={2} />
-        <ol className="mt-8 space-y-4" aria-label={t("title")}>
+        <ol className="mt-6 space-y-4" aria-label={t("title")}>
           {ngcdfAllocations.map((a, i) => (
             <li key={a.fy} className="grid grid-cols-[5.5rem_1fr] items-center gap-3" data-reveal>
               <span className="font-mono text-sm">{a.fy}</span>
@@ -24,7 +24,7 @@ export async function AllocationChart() {
             </li>
           ))}
         </ol>
-        <div className="mt-8 space-y-3">
+        <div className="mt-6 space-y-3">
           {ngcdfGaps.map((g) => (
             <p key={g.fy} className="rounded-xl border border-uda-700 bg-uda-50 p-4 text-sm">
               {t("gapNote", { fy: g.fy, codeList: formatKsh(g.codeList, locale), gap: formatKsh(g.approved - g.codeList, locale), approved: formatKsh(g.approved, locale) })}

@@ -19,10 +19,10 @@ export default async function ElectionsPage({ params }: Props) {
   const t = await getTranslations("elections");
   return (
     <>
-      <section className="shell py-14">
+      <section className="shell py-10">
         <p className="kicker">{t("hero.kicker")}</p>
         <h1 className="display-xl mt-3">{t("hero.title")}</h1>
-        <div className="mt-10"><SplitFlap /></div>
+        <div className="mt-6"><SplitFlap /></div>
         <p className="mt-4 text-[15px] text-black/80">{t("dateNote")}</p>
         <SourceBadge ids={["iebc-election-date"]} className="mt-2" />
       </section>

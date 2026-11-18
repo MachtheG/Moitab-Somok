@@ -18,10 +18,10 @@ export default async function WardsPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("wards");
   return (
-    <section className="shell py-14">
+    <section className="shell py-10">
       <SectionHeading as="h1" kicker={t("hero.kicker")} title={t("hero.title")} lede={t("hero.body")} filled={2} />
-      <div className="mt-10"><WardMap wards={wardViews(t, locale)} /></div>
-      <SourceBadge ids={["mzalendo-constituency"]} className="mt-8" />
+      <div className="mt-6"><WardMap wards={wardViews(t, locale)} /></div>
+      <SourceBadge ids={["mzalendo-constituency", "hdx-ward-boundaries"]} className="mt-6" />
       <p className="mt-3 text-sm text-black/70">{t("projectsPending")}</p>
     </section>
   );

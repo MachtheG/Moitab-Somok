@@ -13,7 +13,7 @@ export async function InvolveHero() {
           <span className="size-10 rounded-full bg-uda-500 sm:size-14" />
           <span className="size-10 rounded-full border-4 border-dashed border-uda-500 sm:size-14" />
         </div>
-        <p className="kicker mt-8">{t("kicker")}</p>
+        <p className="kicker mt-6">{t("kicker")}</p>
         <h1 className="display-lg mt-3">{t("title")}</h1>
         <p className="lede mt-4 max-w-xl text-white/85">{t("body")}</p>
       </div>

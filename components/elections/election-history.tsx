@@ -8,7 +8,7 @@ export async function ElectionHistory() {
   const locale = await getLocale();
   const growth = formatPct((register[2022] / register[2017] - 1) * 100, locale);
   return (
-    <section className="shell grid gap-10 py-14 md:grid-cols-2">
+    <section className="shell grid gap-10 py-10 md:grid-cols-2">
       <div>
         <h2 className="display-md">{t("history.title")}</h2>
         <p className="mt-3 text-black/75">{t("history.created")}</p>

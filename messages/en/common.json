@@ -46,7 +46,9 @@
   },
   "locale": {
     "switchTo": "Kiswahili",
-    "label": "Language"
+    "label": "Language",
+    "en": "English",
+    "sw": "Kiswahili"
   },
   "lite": {
     "toggle": "Lite mode",
@@ -86,5 +88,6 @@
     "sub": "MP · Kipkelion West"
   },
   "slogan": "Mara ya Tatu, Kazi Zaidi",
-  "sloganEn": "Third time, more work"
+  "sloganEn": "Third time, more work",
+  "crest": "Kericho County coat of arms"
 }

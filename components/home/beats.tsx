@@ -13,13 +13,13 @@ const BEATS = [
 export async function Beats() {
   const t = await getTranslations("home.beats");
   return (
-    <section className="shell py-16 sm:py-24">
-      <ol className="grid gap-4 md:grid-cols-3">
+    <section className="shell py-10 sm:py-10">
+      <ol className="grid gap-3 md:grid-cols-3">
         {BEATS.map((b, i) => (
           <li key={b.key} data-reveal>
-            <Link href={b.href} className="group flex h-full flex-col rounded-2xl border border-black/10 p-6 transition-colors hover:border-black">
+            <Link href={b.href} className="group flex h-full flex-col rounded-2xl border border-black/10 p-5 transition-colors hover:border-black">
               <HatTrick filled={i + 1} label="" />
-              <p className="kicker mt-6">{t(`${b.key}.kicker`)}</p>
+              <p className="kicker mt-4">{t(`${b.key}.kicker`)}</p>
               <h2 className="mt-2 font-display text-2xl font-bold leading-tight">{t(`${b.key}.title`)}</h2>
               <p className="mt-3 text-black/75">{t(`${b.key}.body`)}</p>
               <ArrowUpRight className="mt-auto self-end pt-4 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" size={36} aria-hidden />

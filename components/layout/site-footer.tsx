@@ -14,7 +14,7 @@ export function SiteFooter() {
   return (
     <footer className="night relative mt-24 overflow-hidden pb-20 sm:pb-0">
       <ContourLines seed={11} count={10} />
-      <div className="shell relative grid gap-10 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
+      <div className="shell relative grid gap-10 py-10 md:grid-cols-[1.4fr_1fr_1fr]">
         <div className="space-y-4">
           <HatTrick tone="night" label={t("hatTrick.label")} />
           <p className="font-display text-3xl font-extrabold leading-tight sm:text-4xl">{t("slogan")}</p>

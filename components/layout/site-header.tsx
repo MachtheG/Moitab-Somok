@@ -1,7 +1,7 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { CountdownPill } from "./countdown-pill";
-import { HatTrickScroll } from "./hat-trick-scroll";
 import { LocaleSwitch } from "./locale-switch";
 import { MenuSheet } from "./menu-sheet";
 import { NavLink } from "./nav-link";
@@ -20,10 +20,10 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-black/10 bg-white/90 backdrop-blur supports-[backdrop-filter]:bg-white/80" style={{ viewTransitionName: "site-header" }}>
       <a href="#main" className="sr-only z-50 rounded bg-black px-3 py-2 text-white focus:not-sr-only focus:fixed focus:left-2 focus:top-2">{t("nav.skip")}</a>
       <div className="shell flex h-[var(--header-h)] items-center justify-between gap-3">
-        <Link href="/" className="tap gap-3" aria-label={`${t("brand.name")}, ${t("nav.home")}`}>
-          <HatTrickScroll label={t("hatTrick.label")} />
+        <Link href="/" className="tap gap-2.5" aria-label={`${t("brand.name")}, ${t("nav.home")}`}>
+          <Image src="/brand/kericho-coat-of-arms.png" alt={t("crest")} width={40} height={40} priority className="size-10 shrink-0 object-contain" />
           <span className="leading-none">
-            <span className="block font-display text-base font-extrabold tracking-tight sm:text-lg">{t("brand.name")}</span>
+            <span className="block font-display text-base font-extrabold tracking-tight sm:text-lg"><span className="hidden sm:inline">Hilary </span>Kosgei</span>
             <span className="hidden font-mono text-[10px] uppercase tracking-widest text-black/70 sm:block">{t("brand.sub")}</span>
           </span>
         </Link>

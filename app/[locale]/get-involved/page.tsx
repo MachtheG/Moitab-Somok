@@ -23,7 +23,7 @@ export default async function GetInvolvedPage({ params }: Props) {
   return (
     <>
       <InvolveHero />
-      <div className="shell grid gap-10 py-14 lg:grid-cols-2">
+      <div className="shell grid gap-10 py-10 lg:grid-cols-2">
         <section id="pledge" className="scroll-mt-20 rounded-3xl border-2 border-black p-6 sm:p-8">
           <h2 className="display-md">{t("pledge.title")}</h2>
           <div className="mt-6"><CampaignForm kind="pledge" cta={t("pledge.cta")} success={t("pledge.success")} wardNames={wardNames} /></div>

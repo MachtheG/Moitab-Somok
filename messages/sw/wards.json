@@ -6,7 +6,7 @@
   "hero": {
     "kicker": "Wadi Zetu",
     "title": "Wadi nne. Eneo bunge moja.",
-    "body": "Gusa wadi kuigundua. Ramani ni ya mfano, si kwa kipimo."
+    "body": "Gusa wadi kuigundua. Mipaka ni mipaka rasmi ya wadi ya IEBC."
   },
   "registered": "Wapiga kura waliosajiliwa (2022)",
   "share": "{pct} ya daftari la eneo bunge",
@@ -30,11 +30,14 @@
     "intro": "[[TO CONFIRM: local context from the campaign]]"
   },
   "back": "Wadi zote",
-  "schematic": "Ramani ya mfano, si kwa kipimo",
+  "schematic": "Mipaka ya wadi: IEBC, kupitia Humanitarian Data Exchange",
   "open": "Fungua {name}",
   "select": "Chagua wadi",
   "entriesCount": "Miradi {count}",
   "none": "Hakuna miradi inayotaja wadi hii moja kwa moja.",
   "photo": "Picha inakuja: Mhe. Kosgei katika {name}",
-  "explore": "Gundua {name}"
+  "explore": "Gundua {name}",
+  "locator": "Kipkelion Magharibi ndani ya Kaunti ya Kericho",
+  "code": "Nambari ya wadi ya IEBC {code}",
+  "landPhoto": "Nyanda za juu za Kericho"
 }

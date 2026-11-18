@@ -8,13 +8,13 @@ export async function RecordHero() {
   return (
     <section className="night relative overflow-hidden">
       <ContourLines seed={5} />
-      <div className="shell relative grid items-end gap-8 py-14 md:grid-cols-[1.5fr_1fr]">
+      <div className="shell relative grid grid-cols-[1fr_7rem] items-end gap-4 py-8 sm:grid-cols-[1.5fr_1fr] sm:gap-8">
         <div>
           <p className="kicker">{t("kicker")}</p>
           <h1 className="display-lg mt-3">{t("title")}</h1>
-          <p className="lede mt-5 max-w-2xl text-white/85">{t("body")}</p>
+          <p className="mt-3 max-w-2xl text-white/85 sm:lede">{t("body")}</p>
         </div>
-        <PhotoSlot slot="parliament" label={c("slot", { slot: "parliament" })} alt={c("placeholderAlt")} className="aspect-[4/5] rounded-2xl md:aspect-[4/5]" sizes="(min-width: 768px) 33vw, 100vw" />
+        <PhotoSlot slot="parliament" label={c("slot", { slot: "parliament" })} alt={c("placeholderAlt")} className="aspect-[4/5] rounded-2xl sm:max-h-80" sizes="(min-width: 768px) 33vw, 100vw" />
       </div>
     </section>
   );

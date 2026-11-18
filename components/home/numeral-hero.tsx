@@ -1,7 +1,7 @@
 import { getLocale, getTranslations } from "next-intl/server";
 import { ContourLines } from "@/components/shared/contour-lines";
 import { Button } from "@/components/ui/button";
-import { photos } from "@/data/photos";
+import { photoForSlot } from "@/data/photos";
 import { Link } from "@/i18n/navigation";
 
 /**
@@ -13,7 +13,7 @@ export async function NumeralHero() {
   const t = await getTranslations("home.hero");
   const c = await getTranslations("common");
   const locale = (await getLocale()) as "en" | "sw";
-  const portrait = photos.find((p) => p.id === "hero-portrait");
+  const portrait = photoForSlot("hero-portrait");
   return (
     <section className="night relative isolate overflow-hidden">
       <ContourLines />
@@ -36,7 +36,7 @@ export async function NumeralHero() {
             </defs>
             <g clipPath="url(#three)">
               <rect width="400" height="520" fill="#003D00" />
-              {portrait ? <image href={portrait.src} width="400" height="520" preserveAspectRatio="xMidYMid slice" /> : <rect width="400" height="520" fill="url(#hills)" />}
+              {portrait ? <image href={portrait.src} x="-10" y="40" width="420" height="470" preserveAspectRatio="xMidYMin slice" /> : <rect width="400" height="520" fill="url(#hills)" />}
             </g>
             <text x="200" y="455" textAnchor="middle" fontSize="560" fontWeight="800" fill="none" stroke="#FFC700" strokeWidth="3" style={{ fontFamily: "var(--font-display)" }}>3</text>
           </svg>

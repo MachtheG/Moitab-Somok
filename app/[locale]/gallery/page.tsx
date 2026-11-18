@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { GalleryGrid } from "@/components/gallery/gallery-grid";
-import { ShotSlots } from "@/components/gallery/shot-slots";
 import { SectionHeading } from "@/components/shared/section-heading";
-import { landscapes, photos } from "@/data/photos";
+import { landscapes, photos, portraits } from "@/data/photos";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -18,11 +17,11 @@ export default async function GalleryPage({ params }: Props) {
   setRequestLocale(locale);
   const t = await getTranslations("gallery");
   return (
-    <div className="shell py-14">
+    <div className="shell py-10">
       <SectionHeading as="h1" kicker={t("hero.kicker")} title={t("hero.title")} lede={t("hero.body")} filled={2} />
-      <div className="mt-10"><GalleryGrid photos={[...photos, ...landscapes]} /></div>
+      <div className="mt-6"><GalleryGrid photos={[...portraits, ...landscapes]} /></div>
       <p className="mt-4 text-sm text-black/70">{t("landNote")}</p>
-      {photos.length < 12 && <ShotSlots />}
+      
     </div>
   );
 }

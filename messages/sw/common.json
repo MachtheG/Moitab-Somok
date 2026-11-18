@@ -46,7 +46,9 @@
   },
   "locale": {
     "switchTo": "English",
-    "label": "Lugha"
+    "label": "Lugha",
+    "en": "Kiingereza",
+    "sw": "Kiswahili"
   },
   "lite": {
     "toggle": "Hali nyepesi",
@@ -86,5 +88,6 @@
     "sub": "Mbunge · Kipkelion Magharibi"
   },
   "slogan": "Mara ya Tatu, Kazi Zaidi",
-  "sloganEn": "Mara ya tatu, kazi zaidi"
+  "sloganEn": "Mara ya tatu, kazi zaidi",
+  "crest": "Nembo ya Kaunti ya Kericho"
 }

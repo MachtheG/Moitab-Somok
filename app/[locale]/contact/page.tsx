@@ -20,9 +20,9 @@ export default async function ContactPage({ params }: Props) {
   const w = await getTranslations("wards");
   const wardNames = Object.fromEntries(WARDS.map((k) => [k, w(`${k}.name`)]));
   return (
-    <div className="shell py-14">
+    <div className="shell py-10">
       <SectionHeading as="h1" kicker={t("hero.kicker")} title={t("hero.title")} filled={2} />
-      <div className="mt-10 grid gap-10 lg:grid-cols-[1fr_1.2fr]">
+      <div className="mt-6 grid gap-10 lg:grid-cols-[1fr_1.2fr]">
         <OfficeCard />
         <section className="rounded-3xl border-2 border-black p-6 sm:p-8">
           <h2 className="display-md">{t("form.title")}</h2>

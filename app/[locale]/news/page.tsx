@@ -22,10 +22,10 @@ export default async function NewsPage({ params }: Props) {
     .sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
   const pending = news.filter((n) => !n.verified || n.campaignApproval === "pending").length;
   return (
-    <div className="shell py-14">
+    <div className="shell py-10">
       <SectionHeading as="h1" kicker={t("hero.kicker")} title={t("hero.title")} lede={t("hero.body")} filled={2} />
       {shown.length ? (
-        <ul className="mt-10 divide-y divide-black/10 border-y border-black/10">
+        <ul className="mt-6 divide-y divide-black/10 border-y border-black/10">
           {shown.map((n) => (
             <li key={n.id}>
               <a href={n.url} target="_blank" rel="noopener noreferrer" className="group grid gap-2 py-6 sm:grid-cols-[10rem_1fr_auto]">
@@ -37,10 +37,10 @@ export default async function NewsPage({ params }: Props) {
           ))}
         </ul>
       ) : (
-        <p className="mt-10 text-lg">{t("empty")}</p>
+        <p className="mt-6 text-lg">{t("empty")}</p>
       )}
       {pending > 0 && (
-        <div className="mt-10 rounded-2xl border border-dashed border-black/30 p-6">
+        <div className="mt-6 rounded-2xl border border-dashed border-black/30 p-6">
           <h2 className="font-display text-xl font-bold">{t("pendingTitle")} ({pending})</h2>
           <p className="mt-2 text-black/75">{t("pendingBody")}</p>
         </div>

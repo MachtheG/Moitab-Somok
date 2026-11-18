@@ -9,7 +9,7 @@ Key docs: `docs/COLOR-LOCK.md`, `docs/CREATIVE-DIRECTION.md`, `docs/DECISIONS.md
 ## Project rules
 
 1. **No invented facts.** Never invent facts, figures, quotes, testimonials, endorsements, project outcomes or news coverage. Every claim needs an entry in `data/sources.ts` (title, outlet, date, URL). If something can't be verified, show a visible placeholder `[[TO CONFIRM: …]]` and log it in `PROGRESS.md`.
-2. **Photos of Hon. Kosgei:** only images supplied or licensed by the campaign. Never hotlink or download press photos. Never AI-generate images of him or any real person. Generated art is allowed only for abstract textures, patterns and landscapes.
+2. **Photos of Hon. Kosgei:** (updated 2026-11-18 at the site owner's instruction) photos from public sources may be used, but each must be downloaded and self-hosted (never hotlinked), clearly identify the Kipkelion West MP on its source page (another Hillary Kosgei appears in Kericho news), and be credited with its source in `data/photos.ts`. Campaign-supplied photos replace them when available. Never AI-generate images of him or any real person.
 3. **No attacks on named opponents.** Use record-led, defamation-safe language.
 4. **Colour lock:** only colours in `docs/COLOR-LOCK.md`. Tints/shades must derive from locked hexes; every pairing must pass WCAG AA.
 5. **Structure:** one tab = one `page.tsx` + its own `components/<tab>/` folder + its own `messages/{en,sw}/<tab>.json`. One component per file, about 200 lines max.

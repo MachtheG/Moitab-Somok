@@ -1,31 +1,84 @@
 {
-  "meta": { "title": "Mara ya Tatu", "description": "Three acts: 2017 the promise, 2022 the proof, 2027 the finish." },
-  "hero": { "kicker": "Mara ya Tatu · The third term", "title": "Three acts. Two written. One to finish.", "scroll": "Scroll to begin" },
+  "meta": {
+    "title": "Mara ya Tatu",
+    "description": "Three acts: 2017 the promise, 2022 the proof, 2027 the finish."
+  },
+  "hero": {
+    "kicker": "Mara ya Tatu · The third term",
+    "title": "Three acts. Two written. One to finish.",
+    "scroll": "Scroll to begin"
+  },
   "acts": {
-    "promise": { "label": "Act I", "year": "2017", "title": "The Promise", "line": "In 2017, Kipkelion West elected him for the first time.", "numberLabel": "registered voters in 2017" },
-    "proof": { "label": "Act II", "year": "2022", "title": "The Proof", "line": "In 2022, after five years in office, the constituency voted him back.", "numberLabel": "votes to re-elect, 2022" },
-    "finish": { "label": "Act III", "year": "2027", "title": "The Finish", "line": "On 10 August 2027, every one of these voters gets a say in the third act.", "numberLabel": "registered voters in 2022" }
+    "promise": {
+      "label": "Act I",
+      "year": "2017",
+      "title": "The Promise",
+      "line": "In 2017, Kipkelion West elected him for the first time.",
+      "numberLabel": "registered voters in 2017"
+    },
+    "proof": {
+      "label": "Act II",
+      "year": "2022",
+      "title": "The Proof",
+      "line": "In 2022, after five years in office, the constituency voted him back.",
+      "numberLabel": "votes to re-elect, 2022"
+    },
+    "finish": {
+      "label": "Act III",
+      "year": "2027",
+      "title": "The Finish",
+      "line": "On 10 August 2027, every one of these voters gets a say in the third act.",
+      "numberLabel": "registered voters in 2022"
+    }
   },
   "why": {
     "title": "Why a third term?",
-    "experience": { "title": "Experience compounds", "body": "Ten years in the House means knowing which committee, which ministry and which budget line moves a project." },
-    "continuity": { "title": "Projects need finishing", "body": "Many NG-CDF approvals fund a stage: a foundation, a slab, a roof. Continuity carries them to completion." },
-    "accountable": { "title": "Judged on the record", "body": "A third term is asked for openly, with the documents on the table." }
+    "experience": {
+      "title": "Experience compounds",
+      "body": "Ten years in the House means knowing which committee, which ministry and which budget line moves a project."
+    },
+    "continuity": {
+      "title": "Projects need finishing",
+      "body": "Many NG-CDF approvals fund a stage: a foundation, a slab, a roof. Continuity carries them to completion."
+    },
+    "accountable": {
+      "title": "Judged on the record",
+      "body": "A third term is asked for openly, with the documents on the table."
+    }
   },
   "commitments": {
     "title": "The third-term plan",
     "draftBadge": "DRAFT · awaiting the MP's approval",
-    "classrooms": { "title": "Finish what was started in our schools", "body": "Carry staged classroom, toilet and junior-secondary works through to completion, school by school." },
-    "bursaries": { "title": "Bursaries that reach the right students", "body": "Keep bursaries a priority and publish how they are allocated, ward by ward." },
-    "roads": { "title": "Roads that link farms to markets", "body": "Keep pressing for the Kipsitet–Muhoroni–Chemelil–Mamboleo road and its spur roads." },
-    "coffeeDairy": { "title": "Coffee and dairy that pay", "body": "Back the farmers and cooperatives behind Kipkelion West's two main livelihoods." },
-    "youth": { "title": "A future for young people at home", "body": "Skills, enterprise and modern agriculture that make staying in Kipkelion West a real choice." },
-    "security": { "title": "Safe communities", "body": "Continue NG-CDF support for police posts and chiefs' offices where communities ask for them." }
+    "classrooms": {
+      "title": "Finish what was started in our schools",
+      "body": "Carry staged classroom, toilet and junior-secondary works through to completion, school by school."
+    },
+    "bursaries": {
+      "title": "Bursaries that reach the right students",
+      "body": "Keep bursaries a priority and publish how they are allocated, ward by ward."
+    },
+    "roads": {
+      "title": "Roads that link farms to markets",
+      "body": "Keep pressing for the Kipsitet–Muhoroni–Chemelil–Mamboleo road and its spur roads."
+    },
+    "coffeeDairy": {
+      "title": "Coffee and dairy that pay",
+      "body": "Back the farmers and cooperatives behind Kipkelion West's two main livelihoods."
+    },
+    "youth": {
+      "title": "A future for young people at home",
+      "body": "Skills, enterprise and modern agriculture that make staying in Kipkelion West a real choice."
+    },
+    "security": {
+      "title": "Safe communities",
+      "body": "Continue NG-CDF support for police posts and chiefs' offices where communities ask for them."
+    },
+    "kicker": "2027–2032 · The plan"
   },
   "letter": {
     "title": "A letter from Hilary",
     "draftBadge": "DRAFT · to be written with and approved by the MP",
-    "body": "[[TO CONFIRM: letter text from the MP]]",
+    "body": "Chamgei, Kipkelion West.\n\nIn 2017 I asked for your trust, and you gave it to me. In 2022 you renewed it with 26,222 votes. I have never taken that for granted. I grew up learning at Koru Farm Primary and Kericho High School, I studied economics at Kenyatta University, and I have spent every day since 2017 working to make public money reach our wards.\n\nI would rather show you than tell you. Every number on this site comes with its source: the NG-CDF Board's own project lists, the IEBC, the Parliament of Kenya and Mzalendo. NG-CDF allocations approved for Kipkelion West have grown from KSh 138.2 million in 2022/23 to KSh 183.0 million in 2025/26. In the published lists, most of that money goes where you told me it matters most: classrooms, junior secondary schools, toilets, staff rooms and bursaries for our children.\n\nIn the House, I have served on the Environment and Natural Resources Committee and the Regional Integration Committee. I have spoken up for our roads, including the Kipsitet–Muhoroni–Chemelil–Mamboleo road, for our tea farmers, for fertiliser that reaches the farm, and for young people who deserve a future at home. In this Parliament I have voted in every recorded division.\n\nMuch of what we started is built in stages: a foundation this year, a roof the next. A third term is about finishing. It means more classrooms completed, bursaries that reach the right students in every ward, roads that link our farms to markets, coffee and dairy that pay, and safe communities from Chilchila to Kunyak.\n\nI am not asking you to take my word for it. Read the record, check the sources, and ask me anything. On Tuesday, 10 August 2027, I ask for your vote one more time, so that together we can finish the work.\n\nMara ya Tatu, Kazi Zaidi.",
     "signoff": "Hon. Hilary Kiplang'at Kosgei"
   }
 }

@@ -34,7 +34,7 @@ export function MenuSheet({ variant = "header" }: { variant?: "header" | "bar" }
               </Dialog.Close>
             </div>
             <Dialog.Description className="sr-only">{t("meta.siteName")}</Dialog.Description>
-            <ul className="mt-8 grid gap-1 sm:grid-cols-2">
+            <ul className="mt-6 grid gap-1 sm:grid-cols-2">
               {tabs.map((tab, i) => (
                 <li key={tab.key}>
                   <NavLink href={tab.href} onClick={() => setOpen(false)} className="group flex min-h-12 items-baseline gap-4 py-1 font-display text-3xl font-bold text-white sm:text-4xl" activeClassName="text-uda-500">

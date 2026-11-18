@@ -24,9 +24,9 @@ export default async function ThirdTermPage({ params }: Props) {
       <div className="relative">
         {chapters.map((c, i) => <ActChapter key={c.key} chapter={c} index={i} />)}
       </div>
+      <MpLetter />
       <WhyThirdTerm />
       <CommitmentsList />
-      <MpLetter />
     </>
   );
 }

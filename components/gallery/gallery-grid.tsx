@@ -24,7 +24,7 @@ export function GalleryGrid({ photos }: { photos: Photo[] }) {
         ))}
       </div>
       {shown.length === 0 ? (
-        <p className="mt-8 text-black/75">{t("empty")}</p>
+        <p className="mt-6 text-black/75">{t("empty")}</p>
       ) : (
         <ul className="mt-6 columns-2 gap-3 md:columns-3">
           {shown.map((p, i) => (

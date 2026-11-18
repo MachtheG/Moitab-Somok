@@ -14,15 +14,15 @@ export async function HansardHighlights() {
     ["divisions", `${floorActivity.divisionsVoted}/${floorActivity.divisionsRecorded}`],
   ] as const;
   return (
-    <section id="hansard" className="scroll-mt-32 bg-onyx-900 py-14">
-      <div className="shell grid gap-10 lg:grid-cols-[1.4fr_1fr]">
+    <section id="hansard" className="scroll-mt-32 bg-onyx-900 py-10">
+      <div className="shell grid gap-6 lg:grid-cols-[1.6fr_1fr]">
         <div>
           <SectionHeading kicker={t("hansardKicker")} title={t("hansard.title")} filled={2} />
-          <ul className="mt-8 space-y-4">
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2">
             {items.map((h) => (
-              <li key={`${h.date}-${h.topicKey}`} className="rounded-2xl bg-white p-5" data-reveal>
+              <li key={`${h.date}-${h.topicKey}`} className="rounded-2xl bg-white p-4" data-reveal>
                 <p className="font-mono text-xs text-black/70">{h.date}</p>
-                <p className="mt-1 text-lg">{t(`hansard.${h.topicKey}`)}</p>
+                <p className="mt-1 text-base leading-snug">{t(`hansard.${h.topicKey}`)}</p>
                 <p className="mt-2 text-xs italic text-black/70">{t("hansard.quotePending")}</p>
                 <SourceBadge ids={[h.sourceId]} className="mt-3" />
               </li>

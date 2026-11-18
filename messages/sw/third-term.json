@@ -1,31 +1,84 @@
 {
-  "meta": { "title": "Mara ya Tatu", "description": "Sehemu tatu: 2017 ahadi, 2022 ushahidi, 2027 kumaliza." },
-  "hero": { "kicker": "Mara ya Tatu · Muhula wa tatu", "title": "Sehemu tatu. Mbili zimeandikwa. Moja ya kumalizia.", "scroll": "Sogeza kuanza" },
+  "meta": {
+    "title": "Mara ya Tatu",
+    "description": "Sehemu tatu: 2017 ahadi, 2022 ushahidi, 2027 kumaliza."
+  },
+  "hero": {
+    "kicker": "Mara ya Tatu · Muhula wa tatu",
+    "title": "Sehemu tatu. Mbili zimeandikwa. Moja ya kumalizia.",
+    "scroll": "Sogeza kuanza"
+  },
   "acts": {
-    "promise": { "label": "Sehemu ya I", "year": "2017", "title": "Ahadi", "line": "Mwaka 2017, Kipkelion Magharibi ilimchagua kwa mara ya kwanza.", "numberLabel": "wapiga kura waliosajiliwa 2017" },
-    "proof": { "label": "Sehemu ya II", "year": "2022", "title": "Ushahidi", "line": "Mwaka 2022, baada ya miaka mitano ofisini, eneo bunge lilimrudisha.", "numberLabel": "kura za kumchagua tena, 2022" },
-    "finish": { "label": "Sehemu ya III", "year": "2027", "title": "Kumalizia", "line": "Tarehe 10 Agosti 2027, kila mmoja wa wapiga kura hawa ana sauti katika sehemu ya tatu.", "numberLabel": "wapiga kura waliosajiliwa 2022" }
+    "promise": {
+      "label": "Sehemu ya I",
+      "year": "2017",
+      "title": "Ahadi",
+      "line": "Mwaka 2017, Kipkelion Magharibi ilimchagua kwa mara ya kwanza.",
+      "numberLabel": "wapiga kura waliosajiliwa 2017"
+    },
+    "proof": {
+      "label": "Sehemu ya II",
+      "year": "2022",
+      "title": "Ushahidi",
+      "line": "Mwaka 2022, baada ya miaka mitano ofisini, eneo bunge lilimrudisha.",
+      "numberLabel": "kura za kumchagua tena, 2022"
+    },
+    "finish": {
+      "label": "Sehemu ya III",
+      "year": "2027",
+      "title": "Kumalizia",
+      "line": "Tarehe 10 Agosti 2027, kila mmoja wa wapiga kura hawa ana sauti katika sehemu ya tatu.",
+      "numberLabel": "wapiga kura waliosajiliwa 2022"
+    }
   },
   "why": {
     "title": "Kwa nini muhula wa tatu?",
-    "experience": { "title": "Uzoefu huongezeka", "body": "Miaka kumi Bungeni inamaanisha kujua kamati ipi, wizara ipi na kifungu kipi cha bajeti kinachosukuma mradi." },
-    "continuity": { "title": "Miradi inahitaji kukamilishwa", "body": "Idhini nyingi za NG-CDF hufadhili hatua moja: msingi, sakafu, paa. Mwendelezo huifikisha hadi mwisho." },
-    "accountable": { "title": "Tupimwe kwa rekodi", "body": "Muhula wa tatu unaombwa waziwazi, hati zikiwa mezani." }
+    "experience": {
+      "title": "Uzoefu huongezeka",
+      "body": "Miaka kumi Bungeni inamaanisha kujua kamati ipi, wizara ipi na kifungu kipi cha bajeti kinachosukuma mradi."
+    },
+    "continuity": {
+      "title": "Miradi inahitaji kukamilishwa",
+      "body": "Idhini nyingi za NG-CDF hufadhili hatua moja: msingi, sakafu, paa. Mwendelezo huifikisha hadi mwisho."
+    },
+    "accountable": {
+      "title": "Tupimwe kwa rekodi",
+      "body": "Muhula wa tatu unaombwa waziwazi, hati zikiwa mezani."
+    }
   },
   "commitments": {
     "title": "Mpango wa muhula wa tatu",
     "draftBadge": "RASIMU · inasubiri idhini ya Mbunge",
-    "classrooms": { "title": "Kumalizia tulichoanza shuleni", "body": "Kukamilisha ujenzi wa madarasa, vyoo na sekondari ya chini uliofanywa kwa awamu, shule moja baada ya nyingine." },
-    "bursaries": { "title": "Basari zinazowafikia wanafunzi wanaostahili", "body": "Kuendelea kutanguliza basari na kuchapisha jinsi zinavyogawanywa, wadi kwa wadi." },
-    "roads": { "title": "Barabara zinazounganisha mashamba na masoko", "body": "Kuendelea kushinikiza barabara ya Kipsitet–Muhoroni–Chemelil–Mamboleo na barabara zake za kuunganisha." },
-    "coffeeDairy": { "title": "Kahawa na maziwa yenye faida", "body": "Kuwaunga mkono wakulima na vyama vya ushirika vilivyo nyuma ya riziki kuu mbili za Kipkelion Magharibi." },
-    "youth": { "title": "Mustakabali wa vijana nyumbani", "body": "Ujuzi, biashara na kilimo cha kisasa vinavyofanya kubaki Kipkelion Magharibi kuwa chaguo halisi." },
-    "security": { "title": "Jamii salama", "body": "Kuendeleza msaada wa NG-CDF kwa vituo vya polisi na ofisi za machifu pale jamii zinapoomba." }
+    "classrooms": {
+      "title": "Kumalizia tulichoanza shuleni",
+      "body": "Kukamilisha ujenzi wa madarasa, vyoo na sekondari ya chini uliofanywa kwa awamu, shule moja baada ya nyingine."
+    },
+    "bursaries": {
+      "title": "Basari zinazowafikia wanafunzi wanaostahili",
+      "body": "Kuendelea kutanguliza basari na kuchapisha jinsi zinavyogawanywa, wadi kwa wadi."
+    },
+    "roads": {
+      "title": "Barabara zinazounganisha mashamba na masoko",
+      "body": "Kuendelea kushinikiza barabara ya Kipsitet–Muhoroni–Chemelil–Mamboleo na barabara zake za kuunganisha."
+    },
+    "coffeeDairy": {
+      "title": "Kahawa na maziwa yenye faida",
+      "body": "Kuwaunga mkono wakulima na vyama vya ushirika vilivyo nyuma ya riziki kuu mbili za Kipkelion Magharibi."
+    },
+    "youth": {
+      "title": "Mustakabali wa vijana nyumbani",
+      "body": "Ujuzi, biashara na kilimo cha kisasa vinavyofanya kubaki Kipkelion Magharibi kuwa chaguo halisi."
+    },
+    "security": {
+      "title": "Jamii salama",
+      "body": "Kuendeleza msaada wa NG-CDF kwa vituo vya polisi na ofisi za machifu pale jamii zinapoomba."
+    },
+    "kicker": "2027–2032 · Mpango"
   },
   "letter": {
     "title": "Barua kutoka kwa Hilary",
     "draftBadge": "RASIMU · itaandikwa pamoja na Mbunge na kuidhinishwa naye",
-    "body": "[[TO CONFIRM: letter text from the MP]]",
+    "body": "Chamgei, Kipkelion Magharibi.\n\nMwaka 2017 niliomba imani yenu, nanyi mkanipa. Mwaka 2022 mkaifanya upya kwa kura 26,222. Sijawahi kuichukulia kwa urahisi. Nilisoma katika Shule ya Msingi ya Koru Farm na Shule ya Upili ya Kericho, nikasomea uchumi katika Chuo Kikuu cha Kenyatta, na tangu 2017 nimefanya kazi kila siku kuhakikisha fedha za umma zinafika katika wadi zetu.\n\nNingependa kuwaonyesha kuliko kuwaambia tu. Kila takwimu kwenye tovuti hii ina chanzo chake: orodha za miradi za Bodi ya NG-CDF, IEBC, Bunge la Kenya na Mzalendo. Mgao wa NG-CDF ulioidhinishwa kwa Kipkelion Magharibi umeongezeka kutoka KSh milioni 138.2 mwaka 2022/23 hadi KSh milioni 183.0 mwaka 2025/26. Katika orodha zilizochapishwa, sehemu kubwa ya fedha hizo inaenda pale mlipoeleza ni muhimu zaidi: madarasa, shule za sekondari ya chini, vyoo, vyumba vya walimu na basari kwa watoto wetu.\n\nBungeni, nimehudumu katika Kamati ya Mazingira na Maliasili na Kamati ya Mtangamano wa Kikanda. Nimezungumza kwa ajili ya barabara zetu, ikiwemo barabara ya Kipsitet–Muhoroni–Chemelil–Mamboleo, kwa ajili ya wakulima wetu wa chai, mbolea inayofika shambani, na vijana wanaostahili mustakabali nyumbani. Katika Bunge hili nimepiga kura katika kila kura iliyorekodiwa.\n\nMengi tuliyoanza hujengwa kwa awamu: msingi mwaka huu, paa mwaka ujao. Muhula wa tatu ni wa kumalizia. Ni madarasa zaidi yaliyokamilika, basari zinazowafikia wanafunzi wanaostahili katika kila wadi, barabara zinazounganisha mashamba yetu na masoko, kahawa na maziwa yenye faida, na jamii salama kutoka Chilchila hadi Kunyak.\n\nSiwaombi mniamini kwa maneno tu. Someni rekodi, hakikini vyanzo, na niulizeni lolote. Jumanne, tarehe 10 Agosti 2027, ninaomba kura yenu mara moja zaidi, ili kwa pamoja tumalize kazi.\n\nMara ya Tatu, Kazi Zaidi.",
     "signoff": "Mhe. Hilary Kiplang'at Kosgei"
   }
 }

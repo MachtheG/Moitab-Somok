@@ -3,11 +3,12 @@
 Ordered by what blocks the design most.
 
 ## Blocking (Phase 2–4)
-1. **Photos** of Hon. Kosgei: see `docs/SHOT-LIST.md`. Hero portrait first. Campaign-owned or licensed; tell us the photographer for credits.
+1. **Photos** of Hon. Kosgei: the site currently uses his two public profile portraits (D-026). Campaign photos per `docs/SHOT-LIST.md` will replace them and fill the act, ward and gallery slots.
 2. **Slogan choice**: see `messages/en/home.json` → `slogans`.
 3. **Nickname "Nyiganet"**: may we use it? In headlines, or body copy only?
 4. **Official channels**: confirm X @KosgeiHon and Facebook HonHilaryKosgei; any WhatsApp channel, TikTok, YouTube?
-5. **Third-term commitments**: approve, edit or replace the six DRAFT directions in `messages/en/third-term.json`.
+5. **MP sign-off**: the letter and the six third-term commitments are live without a draft label (D-030); Hon. Kosgei should read and approve both.
+6. **Coat of arms**: confirm the campaign may display the Kericho County coat of arms (D-027).
 
 ## Facts to confirm
 - Career 1998–2015 (no public source).

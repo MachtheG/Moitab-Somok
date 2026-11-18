@@ -21,11 +21,43 @@ export type Photo = {
   credit: string;
   approvedForPress: boolean;
   featured: boolean;
-  /** Third-party openly licensed images (landscapes only; never of the MP). */
+  /** Third-party images: licence or source page for the credit line. */
   license?: { name: string; url: string; source: string; changes?: string };
+  /** CSS object-position, e.g. "50% 20%" to keep a face in frame. */
+  focus?: string;
 };
 
-export const photos: Photo[] = [];
+const OFFICIAL = { name: "Parliament of Kenya", url: "https://www.parliament.go.ke", source: "https://www.parliament.go.ke/index.php/the-national-assembly/hon-kosgei-hilary-kiplangat" };
+const PROFILE = { name: "Mzalendo", url: "https://mzalendo.com", source: "https://mzalendo.com/mps-performance/national-assembly/13th-parliament/hilary-kiplangat-kosgei/" };
+const PORTRAIT_ALT = { en: "Hon. Hilary Kiplang'at Kosgei, MP for Kipkelion West", sw: "Mhe. Hilary Kiplang'at Kosgei, Mbunge wa Kipkelion Magharibi" };
+const official = (id: string): Photo => ({
+  id, src: "/photos/kosgei/official-portrait.jpg", width: 775, height: 861, alt: PORTRAIT_ALT,
+  caption: { en: "Official National Assembly portrait", sw: "Picha rasmi ya Bunge la Kitaifa" },
+  date: null, ward: null, category: "portrait", credit: "Parliament of Kenya", approvedForPress: false, featured: true, license: OFFICIAL, focus: "50% 25%",
+});
+const profile = (id: string): Photo => ({
+  id, src: "/photos/kosgei/profile-portrait.jpg", width: 320, height: 400, alt: PORTRAIT_ALT,
+  caption: { en: "Hon. Kosgei, 13th Parliament", sw: "Mhe. Kosgei, Bunge la 13" },
+  date: null, ward: null, category: "portrait", credit: "Mzalendo Trust", approvedForPress: false, featured: true, license: PROFILE, focus: "50% 22%",
+});
+
+/**
+ * Photos of Hon. Kosgei from public profile pages (CLAUDE.md rule 2, updated
+ * 2026-11-18). Slots without a photo of him use a credited Kericho landscape
+ * (see `landscapeFor` below). Campaign photos replace these when supplied.
+ */
+export const photos: Photo[] = [
+  official("hero-portrait"),
+  official("parliament"),
+  official("act-1-2017"),
+  official("party"),
+  profile("journey-portrait"),
+  profile("contact"),
+  profile("act-2-2022"),
+];
+
+/** Gallery set: one of each portrait (slots reuse the same files). */
+export const portraits: Photo[] = [official("portrait-official"), profile("portrait-profile")];
 
 /**
  * Openly licensed landscapes of the Kericho highlands from Wikimedia Commons.
@@ -92,3 +124,18 @@ export const photoSlots = [
   "contact",
 ] as const;
 export type PhotoSlot = (typeof photoSlots)[number];
+
+/** Slots filled with a landscape until a photo of the MP exists for them. */
+const LANDSCAPE_FOR: Partial<Record<PhotoSlot, string>> = {
+  "act-3-2027": "kericho-farmland",
+  "ward-chilchila": "kericho-tealand-2012",
+  "ward-kipkelion": "kericho-farmland",
+  "ward-kamasian": "kericho-tea-carpet",
+  "ward-kunyak": "kericho-tea-plantation",
+  "get-involved": "kericho-tea-carpet",
+};
+
+/** The photo to show in a slot: the MP if we have one, else a credited landscape. */
+export function photoForSlot(slot: PhotoSlot): Photo | undefined {
+  return photos.find((p) => p.id === slot) ?? landscapes.find((l) => l.id === LANDSCAPE_FOR[slot]);
+}

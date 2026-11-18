@@ -26,7 +26,7 @@ export async function ActChapter({ chapter, index }: { chapter: Chapter; index: 
           </div>
           <h2 id={`act-${k}`} className="display-lg mt-4">{t(`${k}.title`)}</h2>
           <p className="lede mt-4 max-w-md text-white/90">{t(`${k}.line`)}</p>
-          <p className={`mt-8 font-display text-6xl font-extrabold tracking-tighter sm:text-7xl ${finale ? "text-uda-500" : "text-white"}`}>{chapter.number.value}</p>
+          <p className={`mt-6 font-display text-6xl font-extrabold tracking-tighter sm:text-7xl ${finale ? "text-uda-500" : "text-white"}`}>{chapter.number.value}</p>
           <p className="mt-1 text-white/85">{t(`${k}.numberLabel`)}</p>
           <div className="mt-5 flex flex-wrap gap-2">
             <SourceBadge ids={chapter.number.sourceIds} tone="night" />
